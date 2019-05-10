@@ -41,3 +41,4 @@ killares
 # Game directory
 # -----------------------------
 /game/config/server.yml
+/game/config/game.yml
