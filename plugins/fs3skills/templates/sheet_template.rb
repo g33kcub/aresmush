@@ -132,7 +132,7 @@ module AresMUSH
       end
 
       def format_language(s, i, show_linked_attr = false)
-        name = "%xh#{s.name}:%xn"
+        name = "%xh#{s.name}%xn"
         linked_attr = show_linked_attr ? print_linked_attr(s) : ""
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = ""
