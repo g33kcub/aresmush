@@ -4,9 +4,9 @@ module AresMUSH
       actor.has_permission?("manage_will")
     end
     def self.modify_will(char, amount)
-      max_will = char.get_max_will
+      max_will = 0
       will = char.will + amount
-      will = [max_will, will].min
+      will = [max_will, will].max
       char.update(fs3_will: will)
     end
     def self.do_regen_will(char)
