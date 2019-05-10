@@ -38,7 +38,7 @@ killares
 # -----------------------------
 /game/uploads
 
-# Game directory
+# Game Configs to Ignore
 # -----------------------------
 /game/config/server.yml
 /game/config/game.yml
