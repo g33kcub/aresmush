@@ -15,5 +15,6 @@ module AresMUSH
         FS3Skills.modify_will(@char, -1)
         client.emit_ooc t('fs3magix.regen_will')
       end
+    end
   end
 end
