@@ -10,7 +10,7 @@ module AresMUSH
           description: a['desc'],
           specialties: a['specialties'] ? a['specialties'].join(', ') : nil,
         }}
-        magix_arts = FS3Skills.magix_arts.sort_by { |a| a['name'] }.map { |a| {
+        magix_arts = FS3Skills.magix.sort_by { |a| a['name'] }.map { |a| {
           name: a['name'].titleize,
           linked_attr: a['linked_attr'],
           description: a['desc'],
