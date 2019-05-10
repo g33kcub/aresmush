@@ -30,7 +30,7 @@ fs3magix:
     is_magix: true
     linked_attr: Enlightenment
   - name: Enchantment
-    desc: The ability to temporary or permanently imbue magic into items.
+    desc: The ability to imbue magic into items.
     is_magix: true
     linked_attr: Enlightenment
   - name: Elemental Air
@@ -70,7 +70,7 @@ fs3magix:
     is_magix: true
     linked_attr: Enlightenment
   - name: Divination
-    desc: The ability to augment a natural sense or sense through unnatural means.
+    desc: The ability to augment your sensory abilities.
     is_magix: true
     linked_attr: Enlightenment
   magix_blurb: 'Magix Arts represent your skill in casting spells of the specified

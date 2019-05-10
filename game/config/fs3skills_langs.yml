@@ -33,6 +33,6 @@ fs3skills:
   - name: Egyptian
     desc: Not the modern, heiroglyphics.
   - name: Enochian
-    desc: Angelic Language, langauge of magic.
+    desc: Angelic Language, language of magic.
   starting_languages:
   - English
