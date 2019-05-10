@@ -82,8 +82,10 @@ module AresMUSH
         max_rating = Global.read_config("fs3skills", "max_skill_rating")
       when :magix
         max_rating = Global.read_config("fs3magix", "max_magix_rating")
-      when :background, :language, :advantage
+      when :background, :advantage
         max_rating = 3
+      when :language
+        max_rating = 1
       when :attribute
         max_rating = Global.read_config("fs3skills", "max_attr_rating")
       end
@@ -111,7 +113,7 @@ module AresMUSH
       if (languages)
         client.emit_ooc t('fs3skills.reset_languages') if client
         languages.each do |l|
-          FS3Skills.set_ability(client, char, l, 3)
+          FS3Skills.set_ability(client, char, l, 1)
         end
       end
 
