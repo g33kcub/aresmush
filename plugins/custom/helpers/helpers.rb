@@ -6,8 +6,8 @@ module AresMUSH
         Channels.send_to_channel(channel, message)
       end
     end
-    def wrap(length = 78, character = $/)
-      scan(/.{#{length}}|.+/).map { |x| x.strip }.join(character)
+    def wrap(s, width=78)
+      s.gsub(/(.{1,#{width}})(\s+|\Z)/, "\\1\n")
     end
   end
 end
