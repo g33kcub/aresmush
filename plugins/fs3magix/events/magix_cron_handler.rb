@@ -9,11 +9,15 @@ module AresMUSH
         if (Cron.is_cron_match?(Global.read_config("fs3magix", "will_cron"), event.time))
           handle_will_restoration
         end
- 
+
       end
       def handle_will_restoration
         Global.logger.debug "Time for restoration of will."
         Custom.channel_alert("Running Will Restoration.")
+        if @char.isapproved? && @char.will > 0
+          FS3Skills.modify_will(char, -1)
+          client.emit_ooc t('fs3magix.regen_will')
+        end
       end
       def handle_sanity_check
         Global.logger.debug "Time for a sanity check."
