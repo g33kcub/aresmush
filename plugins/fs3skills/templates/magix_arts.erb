@@ -2,7 +2,7 @@
 <%= magix_blurb %>
 
 <% data[:skills].each do |a| %>
-<%= left( a['name'], 16 ) %> <%= left( wrap(a['desc'],61) ,61) %>
+<%= left( a['name'], 16 ) %> <%= a['desc'] %>
 <% end %>
 
 <%= page_footer %>
