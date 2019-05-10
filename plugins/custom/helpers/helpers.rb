@@ -6,7 +6,7 @@ module AresMUSH
         Channels.send_to_channel(channel, message)
       end
     end
-    def wrap(s, width=78)
+    def self.wrap(s, width=78)
       s.gsub(/(.{1,#{width}})(\s+|\Z)/, "\\1\n")
     end
   end
