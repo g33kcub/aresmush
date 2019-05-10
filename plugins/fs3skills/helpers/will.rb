@@ -13,7 +13,7 @@ module AresMUSH
       will = char.will
       if char.is_approved? && will > 0
         FS3Skills.modify_will(char, -1)
-        char.emit_ooc t('fs3magix.regen_will')
+        Login.emit_ooc_if_logged_in(char, t('fs3magix.regen_will'))
       end
     end
   end
