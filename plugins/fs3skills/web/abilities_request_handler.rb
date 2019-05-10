@@ -21,7 +21,7 @@ module AresMUSH
         {
           attrs_blurb: Website.format_markdown_for_html(FS3Skills.attr_blurb),
           action_blurb: Website.format_markdown_for_html(FS3Skills.action_blurb),
-          magix_blurb: Website.format_markdown_for_html(FS3Magix.magix_blurb),
+          magix_blurb: Website.format_markdown_for_html(FS3Skills.magix_blurb),
           background_blurb: Website.format_markdown_for_html(FS3Skills.bg_blurb),
           language_blurb: Website.format_markdown_for_html(FS3Skills.language_blurb),
           advantages_blurb:  Website.format_markdown_for_html(FS3Skills.advantages_blurb),
