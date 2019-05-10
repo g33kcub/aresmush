@@ -70,7 +70,7 @@ module AresMUSH
       def background_skills
         list = []
         @char.fs3_background_skills.sort_by(:name, :order => "ALPHA").each_with_index do |s, i|
-           list << format_skill(s, i)
+           list << format_adv_bg(s, i)
         end
         list
       end
@@ -86,7 +86,7 @@ module AresMUSH
       def advantages
         list = []
         @char.fs3_advantages.sort_by(:name, :order => "ALPHA").each_with_index do |l, i|
-          list << format_language(l, i)
+          list << format_adv_bg(l, i)
         end
         list
       end
@@ -123,11 +123,19 @@ module AresMUSH
         "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
       end
 
-      def format_language(s, i, show_linked_attr = false)
+      def format_adv_bg(s, i, show_linked_attr = false)
         name = "%xh#{s.name}:%xn"
         linked_attr = show_linked_attr ? print_linked_attr(s) : ""
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}#{linked_attr}"
+        "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
+      end
+
+      def format_adv_bg(s, i, show_linked_attr = false)
+        name = "%xh#{s.name}:%xn"
+        linked_attr = show_linked_attr ? print_linked_attr(s) : ""
+        linebreak = i % 2 == 1 ? "" : "%r"
+        rating_text = ""
         "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
       end
 
