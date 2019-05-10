@@ -11,7 +11,7 @@ module AresMUSH
         case cmd.page
         when 1
           template = AbilityPageTemplate.new("/attributes.erb",
-              { attrs: FS3Skills.attrs, num_pages: num_pages, page: cmd.page })
+              { attrs: FS3Skills.attrs.sort_by { |a| a['name'] }, num_pages: num_pages, page: cmd.page })
         when 2
           template = AbilityPageTemplate.new("/action_skills.erb",
               { skills: FS3Skills.action_skills.sort_by { |a| a['name'] }, num_pages: num_pages, page: cmd.page })
