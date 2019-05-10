@@ -14,9 +14,6 @@ module AresMUSH
       def handle_will_restoration
         Global.logger.debug "Time for restoration of will."
         Custom.channel_alert("Running Will Restoration.")
-        if @char.isapproved? && @char.will > 0
-          FS3Skills.modify_will(char, -1)
-          client.emit_ooc t('fs3magix.regen_will')
         end
       end
       def handle_sanity_check
