@@ -124,7 +124,7 @@ module AresMUSH
         linked_attr = show_linked_attr ? print_linked_attr(s) : ""
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}#{linked_attr}"
-        rating = "#{a.rating}"
+        rating = "#{s.rating}"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{left(rating_text,16)}"
       end
 
