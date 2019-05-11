@@ -155,11 +155,25 @@ module AresMUSH
         !apt ? "" : " %xh%xx(#{apt[0..2].upcase})%xn"
       end
 
-      def fullname
-        @char.demographic(:fullname)
+      def calling
+        @char.group("Calling") || "Unknown"
       end
+
       def alignment
-        @char.get_group(:alignment)
+        @char.group("Alignment") || "Unknown"
+      end
+
+      def fullname
+        @char.demographic("fullname") || "Unknown"
+      end
+
+      def shadowname
+        @char.demographic("shadowname") || "Unknown"
+      end
+
+      def dateofbirth
+          dob = @char.demographic(:birthdate)
+          !dob ? "Unknown" : ICTime.ic_datestr(dob)
       end
 
     end
