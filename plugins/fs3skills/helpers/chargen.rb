@@ -113,9 +113,9 @@ module AresMUSH
 
       FS3Skills.attr_names.each do |a|
         if a == "Enlightenment"
-          FS3Skills.set_ability(client, char, a, 1)
+          FS3Skills.set_ability(char, a, 1)
         else
-          FS3Skills.set_ability(client, char, a, 2)
+          FS3Skills.set_ability(char, a, 2)
         end
       end
 
