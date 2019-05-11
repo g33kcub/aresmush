@@ -62,7 +62,7 @@ module AresMUSH
 
       def magix
        list = []
-       filtered = @char.fs3_magix_arts.sort_by(:name, :order => "Alpha").delete_if { |key| :rating  == 0}
+       filtered = @char.fs3_magix_arts.sort_by(:name, :order => "Alpha").select { |key| key[:rating]  == 0}
         filtered.each_with_index do |a, i|
             list << format_magix(a, i)
         end
