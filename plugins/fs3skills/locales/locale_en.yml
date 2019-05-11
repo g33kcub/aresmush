@@ -139,6 +139,7 @@ en:
         birthdate_title: "Birthdate:"
         display_age: "%{dob} (%{age})"
         character_status: "App Status:"
+        job_title: "Job:"
 
         sheet_header: "%{game} Sheet - %{name}"
 

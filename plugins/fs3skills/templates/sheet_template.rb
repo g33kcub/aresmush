@@ -171,6 +171,10 @@ module AresMUSH
         @char.demographic("shadowname") || "Unknown"
       end
 
+      def job
+        @char.demographic("job") || "Unknown"
+      end
+
       def motivation
         @char.group("motivation") || "Unknown"
       end
