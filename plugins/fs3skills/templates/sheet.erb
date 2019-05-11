@@ -1,5 +1,6 @@
 %lh
-%xh<%= char.name %>%xn <%= center( approval_status, 23 ) %>
+%xh<%= left( t('fs3skills.fullname_title'), 16) %>%xn <%= left( demographic(:fullname), 20 ) %> %xh<%= left(t('fs3skills.Alignment_title'),16) %>%xn <%= group(:Alignment) -%>
+
 <%= line_with_text t('fs3skills.attributes_title') -%>
 <% attrs.each do |a| -%>
 <%= a -%>

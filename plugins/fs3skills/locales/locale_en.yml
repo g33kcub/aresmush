@@ -131,6 +131,15 @@ en:
         specialty_required: "Specialty Required:"
         advantages_title: "Advantages"
 
+        fullname_title: "Full Name:"
+        shadowname_title: "Shadow Name:"
+        calling_title: "Calling:"
+        motivation_title: "Motivation:"
+        alignment_title: "Alignment:"
+        birthdate_title: "Birthdate:"
+        display_age: "%{dob} (%{age})"
+        character_status: "Character Status:"
+
         # ------------------------------------------------------
         # XP
         # ------------------------------------------------------
