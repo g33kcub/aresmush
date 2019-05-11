@@ -138,7 +138,7 @@ module AresMUSH
       end
 
       (chargen_data[:fs3][:fs3_magix_arts] || []).each do |k, v|
-        status = FS3Skills.set_ability(nil, char, k, v.to_i)
+        status = FS3Skills.set_ability(char, k, v.to_i)
         return t('fs3skills.error_saving_ability', :name => k) if !status
       end
 
