@@ -67,6 +67,14 @@ fs3skills:
     desc: The ability to drive a car, motorcycle, car.
     linked_attr: Reflexes
     is_magix: false
+  - name: Crafting
+    desc: The ability to create something from other things.
+    linked_attr: Reflexes
+    is_magix: false
+  - name: Performance
+    desc: The ability to perform a skill under pressure.
+    linked_attr: Presence
+    is_magix: false
   action_skills_blurb: 'Action Skills represent your ability in areas deemed important
     for gameplay.  Action Skills are rated from 0-8. See [FS3: Action Skills](http://aresmush.com/fs3/fs3-3/chargen/#action-skills)
     for details.'

@@ -75,7 +75,14 @@ fs3magix:
     linked_attr: Enlightenment
   magix_blurb: 'Magix Arts represent your skill in casting spells of the specified
     type. '
+  max_arts_at_or_above:
+    '4': 14
+    '5': 10
+    '6': 7
+    '7': 3
+    '8': 1
   max_magix_rating: 8
+  max_points_on_arts: 14
   sanity_cron:
     hour:
     - 0
