@@ -185,6 +185,10 @@ module AresMUSH
         age == 0 ? "--" : age
       end
 
+      def game_name
+        Global.read_config("game","name")
+      end
+
     end
   end
 end
