@@ -17,8 +17,8 @@ en:
         legendary_rating: "Legendary"
 
         # Language Skill Ratings
-        beginner_rating: "Beginner"
-        conversational_rating: "Conversational"
+        beginner_rating: "Fluent"
+        conversational_rating: "Fluent"
         fluent_rating: "Fluent"
 
         # Chargen Values Set
