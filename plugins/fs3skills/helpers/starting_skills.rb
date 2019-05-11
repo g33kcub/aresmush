@@ -32,8 +32,8 @@ module AresMUSH
           group_attrs = v["attrs"]
           next if !group_attrs
           group_attrs.each do |attr, rating|
-            if (!attrs.has_key?(attr) || attrs[attr] < rating)
-              attrs[attr] = rating
+            if (!skills.has_key?(attr) || skills[attr] < rating)
+              skills[attr] = rating
             end
           end
         end
