@@ -126,11 +126,6 @@ module AresMUSH
         end
       end
 
-      FS3Skills.magix_arts_names.each do |a|
-          FS3Skills.set_ability(client, char, a, 0)
-      end
-
-
       FS3Skills.action_skill_names.each do |a|
         FS3Skills.set_ability(client, char, a, 1)
       end
