@@ -12,10 +12,6 @@ module AresMUSH
           skills[a] = 1
         end
 
-        FS3Skills.magix.map { |a| a['name'] }.each do |a|
-          skills[a] = 0
-        end
-
         FS3Skills.action_skills.map { |a| a['name'] }.each do |a|
           skills[a] = Global.read_config('fs3skills', 'allow_unskilled_action_skills') ? 0 : 1
         end
