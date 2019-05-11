@@ -30,6 +30,7 @@ module AresMUSH
             end
           end
         end
+        
         groups = get_groups_for_char(char)
         groups.each do |k, v|
           group_skills = v["attrs"]
