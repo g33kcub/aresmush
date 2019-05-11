@@ -159,7 +159,7 @@ module AresMUSH
         @char.demographic(:fullname)
       end
       def alignment
-        Profile.general_field(@char,groups,:alignment)
+        @char.group(:alignment)
       end
 
     end
