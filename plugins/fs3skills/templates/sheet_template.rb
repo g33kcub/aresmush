@@ -111,9 +111,14 @@ module AresMUSH
         spec.map { |spec, ability| "#{spec} (#{ability})"}.join(", ")
       end
 
-      def format_attr(a, i)
-        name = "%xh#{a.name}:%xn"
+      def format_attr(a, i, show_linked_attr = false)
+        name = "%xh#{s.name}:%xn"
+        linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
+        rating_text = "#{s.rating_name}"
+        rating = "#{s.rating}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
+      end        linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{a.rating_name}"
         rating = "#{a.rating}"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{left(rating_text,16)}"
@@ -121,7 +126,7 @@ module AresMUSH
 
       def format_skill(s, i, show_linked_attr = true)
         name = "%xh#{s.name}:%xn"
-        linked_attr = show_linked_attr ? print_linked_attr(s) : ""
+        linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}"
         rating = "#{s.rating}"
@@ -130,26 +135,28 @@ module AresMUSH
 
       def format_adv_bg(s, i, show_linked_attr = false)
         name = "%xh#{s.name}:%xn"
-        linked_attr = show_linked_attr ? print_linked_attr(s) : ""
+        linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
-        rating_text = "#{s.rating_name}#{linked_attr}"
-        "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
+        rating_text = "#{s.rating_name}"
+        rating = "#{s.rating}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
       def format_language(s, i, show_linked_attr = false)
         name = "%xh#{s.name}%xn"
-        linked_attr = show_linked_attr ? print_linked_attr(s) : ""
+        linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = ""
         "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
       end
 
-      def format_magix(s, i, show_linked_attr = true)
+      def format_magix(s, i, show_linked_attr = false)
         name = "%xh#{s.name}:%xn"
-        linked_attr = show_linked_attr ? print_linked_attr(s) : ""
+        linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
-        rating_text = "#{s.rating_name}#{linked_attr}"
-        "#{linebreak}#{left(name, 16)} #{left(rating_text, 20)}"
+        rating_text = "#{s.rating_name}"
+        rating = "#{s.rating}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
       def print_linked_attr(skill)
