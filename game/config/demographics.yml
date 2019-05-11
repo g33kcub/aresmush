@@ -9,13 +9,17 @@ demographics:
     title: Gender
     value: gender
   - field: group
-    width: 20
+    width: 12
     title: Calling
     value: Calling
   - field: group
-    width: 20
-    title: Alignment
+    width: 6
+    title: Align
     value: Alignment
+  - field: group
+    width: 20
+    title: Motivation
+    value: Motivation
   demographics:
   - actor
   - hair
@@ -27,11 +31,13 @@ demographics:
   - gender
   - birthdate
   - shadowname
+  - job
   disable_auto_shortcuts: false
   editable_properties:
   - fullname
   - hair
   - physique
+  - job
   groups:
     Alignment:
       desc: Which way do you go?
@@ -46,7 +52,7 @@ demographics:
         Mender: Healers & Builders.
         Seeker: Hunters of Seekers, bringers of Truth.
         Troubadour: Artists and Inspirers of Awesome.
-        Wisemen: Spiritually Strong, Wise person.
+        Wiseman: Spiritually Strong, Wise person.
     Motivation:
       desc: What do you want?
       values:
@@ -69,6 +75,7 @@ demographics:
     skin: "%xcskin <complexion>%xn"
     birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
     shadowname: "%xcshadowname <name>%xn"
+    job: "%xcjob <job>%xn"
   max_age: 65
   min_age: 16
   nickname_field: shadowname
@@ -84,6 +91,7 @@ demographics:
   - fullname
   - gender
   - birthdate
+  - job
   shortcuts:
     groups: group
     alignments: group alignment

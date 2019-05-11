@@ -1,6 +1,6 @@
 ---
 fs3skills:
-  max_luck: 6
+  max_luck: 7
   public_sheets: false
   roll_channel: FS3 Rolls
   shortcuts:
@@ -8,7 +8,7 @@ fs3skills:
     sheet2: profile
     skills: abilities
     attributes: abilities
-    languages: abilities
+    languages: abilities5
     practice: learn
     train: learn
     xp/raise: learn
