@@ -30,17 +30,6 @@ module AresMUSH
             end
           end
         end
-        
-        groups = get_groups_for_char(char)
-        groups.each do |k, v|
-          group_skills = v["attrs"]
-          next if !group_skills
-          group_skills.each do |skill, rating|
-            if (!skills.has_key?(skill) || skills[skill] < rating)
-              skills[skill] = rating
-            end
-          end
-        end
         skills
       end
 
