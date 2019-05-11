@@ -1,7 +1,7 @@
 <%= header %>
 %xh<%= t('demographics.group_types_title') %>%xn
 <%= divider %>
-<% groups.each.sort_by { |a| a['name'] } do |name, data| %>
+<% groups.each do |name, data| %>
 <%= left(name, 20) -%>
  <%= data['desc'] %>
 <% end %>
