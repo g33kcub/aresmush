@@ -171,9 +171,18 @@ module AresMUSH
         @char.demographic("shadowname") || "Unknown"
       end
 
+      def motivation
+        @char.group("motivation") || "Unknown"
+      end
+
       def dateofbirth
-          dob = @char.demographic(:birthdate)
+          dob = @char.demographic("birthdate")
           !dob ? "Unknown" : ICTime.ic_datestr(dob)
+      end
+
+      def age
+        age = @char.age
+        age == 0 ? "--" : age
       end
 
     end
