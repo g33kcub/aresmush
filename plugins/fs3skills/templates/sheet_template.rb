@@ -123,9 +123,9 @@ module AresMUSH
         name = "%xh#{s.name}:%xn"
         linked_attr = show_linked_attr ? print_linked_attr(s) : ""
         linebreak = i % 2 == 1 ? "" : "%r"
-        rating_text = "#{s.rating_name}#{linked_attr}"
+        rating_text = "#{s.rating_name}"
         rating = "#{s.rating}"
-        "#{linebreak}#{left(name, 16)} [#{rating}] #{left(rating_text,16)}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,13)}"
       end
 
       def format_adv_bg(s, i, show_linked_attr = false)
@@ -154,7 +154,7 @@ module AresMUSH
 
       def print_linked_attr(skill)
         apt = FS3Skills.get_linked_attr(skill.name)
-        !apt ? "" : " %xh%xx(#{apt[0..2].upcase})%xn"
+        !apt ? "" : " %xh%xx#{apt[0..2].upcase}%xn"
       end
 
       def calling
