@@ -11,23 +11,23 @@ module AresMUSH
     def print_rating
       case rating
       when 0
-        return ""
+        return "0"
       when 1
-        return "%xg@%xn"
+        return "%xg1%xn"
       when 2
-        return "%xg@@%xn"
+        return "%xg2%xn"
       when 3
-        return "%xg@@%xy@%xn"
+        return "%xy3%xn"
       when 4
-        return "%xg@@%xy@@%xn"
+        return "%xy4%xn"
       when 5
-        return "%xg@@%xy@@%xr@%xn"
+        return "%xr5%xn"
       when 6
-        return "%xg@@%xy@@%xr@@%xn"
+        return "%xr6%xn"
       when 7
-        return "%xg@@%xy@@%xr@@%xb@%xn"
+        return "%xb7%xn"
       when 8
-        return "%xg@@%xy@@%xr@@%xb@@%xn"
+        return "%xb8%xn"
       end
     end
 

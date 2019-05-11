@@ -116,7 +116,7 @@ module AresMUSH
         linked_attr = show_linked_attr ? print_linked_attr(a) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{a.rating_name}"
-        rating = "#{a.rating}"
+        rating = "%xh#{a.print_rating}%xn"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
@@ -125,7 +125,7 @@ module AresMUSH
         linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}"
-        rating = "#{s.rating}"
+        rating = "%xh#{s.print_rating}%xn"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
@@ -134,7 +134,7 @@ module AresMUSH
         linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}"
-        rating = "#{s.rating}"
+        rating = "#{s.print_rating}"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
@@ -151,7 +151,7 @@ module AresMUSH
         linked_attr = show_linked_attr ? print_linked_attr(s) : "   "
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}"
-        rating = "#{s.rating}"
+        rating = "#{s.print_rating}"
         "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 

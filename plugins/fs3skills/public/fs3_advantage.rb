@@ -2,17 +2,26 @@ module AresMUSH
   class FS3Advantage < Ohm::Model
     include ObjectModel
     include LearnableAbility
-    
+
     reference :character, "AresMUSH::Character"
     attribute :name
     attribute :rating, :type => DataType::Integer, :default => 0
-    
+
     index :name
-    
+
     def print_rating
-      rating_name
+      case rating
+      when 0
+        return "0"
+      when 1
+        return "%xg1%xn"
+      when 2
+        return "%xy2%xn"
+      when 3
+        return "%xr3%xn"
+      end
     end
-    
+
     def rating_name
       case rating
       when 0
