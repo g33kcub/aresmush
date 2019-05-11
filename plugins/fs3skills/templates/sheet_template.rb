@@ -125,7 +125,7 @@ module AresMUSH
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{s.rating_name}"
         rating = "#{s.rating}"
-        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,13)}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{linked_attr} #{left(rating_text,12)}"
       end
 
       def format_adv_bg(s, i, show_linked_attr = false)
