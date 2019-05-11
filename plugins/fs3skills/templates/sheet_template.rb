@@ -116,7 +116,7 @@ module AresMUSH
         linebreak = i % 2 == 1 ? "" : "%r"
         rating_text = "#{a.rating_name}"
         rating = "#{a.rating}"
-        "#{linebreak}#{left(name, 16)} [#{left(rating,3)}] #{left(rating_text,15)}"
+        "#{linebreak}#{left(name, 16)} [#{rating}] #{left(rating_text,15)}"
       end
 
       def format_skill(s, i, show_linked_attr = true)
