@@ -34,7 +34,10 @@ module AresMUSH
       end
 
       def luck_max
-        Global.read_config("fs3skills", "max_luck")
+        base = Global.read_config("fs3skills", "max_luck")
+        adv = FS3Skills.ability_rating(@char, "Fortune Favored")
+        max = base + adv
+        max
       end
 
       def xp_max
