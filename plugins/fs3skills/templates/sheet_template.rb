@@ -62,8 +62,9 @@ module AresMUSH
 
       def magix
        list = []
-       filtered = @char.fs3_magix_arts.sort_by(:name, :order => "Alpha").select{ |x| x[:rating] >= 1}
-        filtered.each_with_index do |a, i|
+       stats = @char.fs3_magix_arts.sort_by(:name, :order => "Alpha")
+       filtered = stats.select{ |x,_| x.rating >= 1}
+            filtered.each_with_index do |a, i|
             list << format_magix(a, i)
         end
               list
