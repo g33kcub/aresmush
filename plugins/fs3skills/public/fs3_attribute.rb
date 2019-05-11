@@ -14,15 +14,15 @@ module AresMUSH
       when 0
         return "0"
       when 1
-        return "%xg1%xn"
+        return "%xh%xg1%xn"
       when 2
-        return "%xg2%xn"
+        return "%xh%xg2%xn"
       when 3
-        return "%xy3%xn"
+        return "%xh%xy3%xn"
       when 4
-        return "%xr4%xn"
+        return "%xh%xr4%xn"
       when 5
-        return "%xb5%xn"
+        return "%xh%xb5%xn"
       end
     end
 
