@@ -1,23 +1,23 @@
 module AresMUSH
   module Demographics
     class GroupDetailTemplate < ErbTemplateRenderer
-      
+
       attr_accessor :group, :name
-      
+
       def initialize(name, group)
         @group = group
         @name = name
         super File.dirname(__FILE__) + "/group_detail.erb"
-      end      
-      
+      end
+
       def description
         self.group['desc' ]
       end
-      
+
       def values
-        self.group['values']
+        self.group['values'].sort_by { |a| a['name'] }
       end
-      
+
     end
   end
 end
