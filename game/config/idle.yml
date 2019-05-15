@@ -33,3 +33,19 @@ idle:
     roster/notes: roster/note
     idle/notes: idle/note
   use_roster: true
+  roster_fields:
+  - field: name
+    width: 20
+    title: Name
+  - field: demographic
+    width: 10
+    title: Gender
+    value: gender
+  - field: group
+    width: 15
+    title: Calling
+    value: Calling
+  - field: group
+    width: 15
+    title: Alignment
+    value: Alignment
