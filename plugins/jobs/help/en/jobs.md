@@ -35,6 +35,7 @@ Valid filters are:
 * Active - Jobs that are active (not done or on hold) and/or have new activity since you last looked.  This is the default filter.
 * Mine - Active jobs assigned to you.
 * Unfinished - All jobs not marked done.
+* Unread - Jobs with new activity.
 * (Category Name) - Active jobs in the given category.
 * All - All jobs.
 
@@ -49,6 +50,13 @@ Jobs can be created by players using the `request` command, by coded systems (e.
 `job/create <title>=<category>/<description>` - Creates a new job
         Default categories are APP (Applications), BUILD (Building), CODE, MISC, RP and REQ (Request).
 `job/query <player>=<title>/<description>` - Submit a request on behalf of someone.
+
+## Multi-Character Jobs
+
+You can add multiple participants to a single job.  All participants will be able to see and comment upon the job.
+
+`job/addparticipant <#>=<name>`
+`job/removeparticipant <#>=<name>`
 
 ## Changing Job Status
 

@@ -55,7 +55,12 @@ module AresMUSH
           return FindsiteAllCmd
         end
       when "git"
-        return GitCmd
+        case cmd.switch
+        when "load"
+          return LoadGitCmd
+        else
+          return GitCmd
+        end
       when "load"
         case cmd.args
         when "config"
@@ -89,7 +94,12 @@ module AresMUSH
       when "unload"
         return UnloadPluginCmd
       when "upgrade"
-        return UpgradeCmd
+        case cmd.switch
+        when "finish"
+          return UpgradeFinishCmd
+        when "start", nil
+          return UpgradeStartCmd
+        end
       when "version"
         return VersionCmd
       end
