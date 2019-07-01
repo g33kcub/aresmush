@@ -52,10 +52,10 @@ demographics:
     Archetype:
       desc: What role do you play?
       values:
-        The Addict: "Moving from one fix to another -- this isn't always about drugs, there is sex, food, music or some other high."
-        The Adherent: "There are rules, then there are rules -- and both have to be followed, some maybe a little less strict but others must be to the letter. Whether it is legal, societal, religious or something else."
-        The Adjudicator: "An unified front is what the goal is here -- you work behind the scenes to grease the right palms, speak the right words, pay the right bribes to make it all work."
-        The Advisor: "You don't claim to know it all -- in fact, you often state you don't. What you have though is the right skill for the job. You know how to look beyond something and give the truth, whether good or bad. You help keep everyone walking the fine line."
+        "The Addict": "Moving from one fix to another -- this isn't always about drugs, there is sex, food, music or some other high."
+        "The Adherent": "There are rules, then there are rules -- and both have to be followed, some maybe a little less strict but others must be to the letter. Whether it is legal, societal, religious or something else."
+        "The Adjudicator": "An unified front is what the goal is here -- you work behind the scenes to grease the right palms, speak the right words, pay the right bribes to make it all work."
+        "The Advisor": "You don't claim to know it all -- in fact, you often state you don't. What you have though is the right skill for the job. You know how to look beyond something and give the truth, whether good or bad. You help keep everyone walking the fine line."
         The Analyst: "There is nothing out of your reach when it comes to information. You collate, categorize and hunt down the information solely for the purpose of having the information."
         The Artist: "Expression is life. It takes many forms depending on the current vibe. Everything is a form of art and you must excel, you must leave your mark."
         The Athlete: "Like the competitor you strive to be the best at whatever sport or function you are part of -- whether sports, martial arts, or just a really active person."
