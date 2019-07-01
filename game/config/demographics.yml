@@ -89,6 +89,7 @@ demographics:
         The Thrill-Seeker: ''
         The Vigilante: ''
         The Visionary: ''
+        The Judge: "When things go wrong, it often falls to you to make it right, whether you like it or not."
   help_text:
     actor: "%xcactor <actor>%xn - See 'help actors'."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
