@@ -1,0 +1,18 @@
+---
+fs3skills:
+  language_blurb: 'Languages represent your ability to speak and read other languages.  Languages
+    have a descriptive rating.   See [FS3: Languages](http://aresmush.com/fs3/fs3-3/chargen/#languages)
+    for details.'
+  languages:
+  - name: English
+    desc: As described.
+  - name: Ankakian
+    desc: The Language of the Lower Tier Keepers.
+  - name: Adokian
+    desc: The language of the Middle Tier Keepers.
+  - name: Imodekian
+    desc: The language of the Higher Tier Keepers.
+  - name: Kian
+    desc: The language of the keepers. Their common tongue.
+  starting_languages:
+  - English

@@ -1,0 +1,19 @@
+---
+fs3skills:
+  luck_for_scene:
+    '0': 0.1
+    '10': 0.075
+    '25': 0.05
+    '50': 0.025
+  max_luck: 5
+  public_sheets: false
+  roll_channel: FS3 Rolls
+  shortcuts:
+    spec: specialty
+    sheet2: profile
+    skills: abilities
+    attributes: abilities
+    languages: abilities
+    practice: learn
+    train: learn
+    xp/raise: learn

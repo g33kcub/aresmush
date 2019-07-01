@@ -1,0 +1,126 @@
+---
+demographics:
+  census_fields:
+  - field: name
+    width: 28
+    title: Name
+  - field: demographic
+    width: 10
+    title: Gender
+    value: gender
+  - field: group
+    width: 20
+    title: Faction
+    value: Faction
+  - field: group
+    width: 20
+    title: Position
+    value: Position
+  demographics:
+  - played by
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - full name
+  - gender
+  - birthdate
+  - streetname
+  disable_auto_shortcuts: false
+  editable_properties:
+  - full name
+  - hair
+  - physique
+  - streetname
+  - gender
+  groups:
+    Faction:
+      desc: What faction are you part of.
+      values:
+        Rebel: We fight the good fight against the tyranny of the keepers.
+        Loyalist: We live to serve. We fight to keep the status quo.
+        Civilian: I just want to survive today.
+    Camp:
+      desc: Which camp are you from?
+      values:
+        Eastland: ''
+        Westland: ''
+        Midland: ''
+        Downtown: ''
+        Underground: ''
+    Archetype:
+      desc: What role do you play?
+      values:
+        The Addict: ''
+        The Adherent: ''
+        The Adjudicator: ''
+        The Advisor: ''
+        The Analyst: ''
+        The Artist: ''
+        The Bravo: ''
+        The Capitalist: ''
+        The Caregiver: ''
+        The Caretaker: ''
+        The Competitor: ''
+        The Coward: ''
+        The Crusader: ''
+        The Dabbler: ''
+        The Defender: ''
+        The Deviant: ''
+        The Explorer: ''
+        The Fatalist: ''
+        The Gambler: ''
+        The Heretic: ''
+        The Innocent: ''
+        The Loner: ''
+        The Martyr: ''
+        The Medic: ''
+        The Mystic: ''
+        The Optimist: ''
+        The Oracle: ''
+        The Pedagogue: ''
+        The Penitent: ''
+        The Rebel: ''
+        The Rogue: ''
+        The Scholar: ''
+        The Stoic: ''
+        The Survivor: ''
+        The Thrill-Seeker: ''
+        The Vigilante: ''
+        The Visionary: ''
+  help_text:
+    actor: "%xcactor <actor>%xn - See 'help actors'."
+    physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
+    gender: "%xcgender <male/female/other>%xn"
+    hair: "%xchair <hair color>%xn"
+    eyes: "%xceyes <eye color>%xn"
+    skin: "%xcskin <complexion>%xn"
+    birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
+    streetname: "%xcstreetname <streetname>%xn - This is the name that most would
+      know you by."
+  max_age: 65
+  min_age: 18
+  nickname_field: streetname
+  nickname_format: "%{name} (%{nickname})"
+  private_properties: []
+  required_properties:
+  - played by
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - full name
+  - gender
+  - birthdate
+  shortcuts:
+    groups: group
+    factions: group faction
+    camps: group camp
+    archetypes: group archetype
+    demographics: demographic
+    birthday: birthdate
+    actors: census played by
+    actor: demographic/set played by=
+    fullname: demographic/set full name=
