@@ -41,6 +41,10 @@ demographics:
         Rebel: We fight the good fight against the tyranny of the keepers.
         Loyalist: We live to serve. We fight to keep the status quo.
         Civilian: I just want to survive today.
+    Archetype:
+      desc: What role do you play?
+      values:
+        The Addict: 'Moving from one fix to another, this isn't always about drugs, there is sex, food, music or some other high.'
     Camp:
       desc: Which camp are you from?
       values:
@@ -49,10 +53,6 @@ demographics:
         Midland: ''
         Downtown: ''
         Underground: ''
-    Archetype:
-      desc: What role do you play?
-      values:
-        The Addict: 
   help_text:
     actor: "%xcactor <actor>%xn - See 'help actors'."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
