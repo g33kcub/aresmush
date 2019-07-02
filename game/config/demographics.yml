@@ -79,12 +79,12 @@ demographics:
         The Perfectionist: "Perfection can be a blessing or a curse. Whatever you do, you have to do it perfectly or it bothers you."
         The Rebel: "The keepers have kept everyone down. You know the rules, and they are a trap. You strive to break free from the chains and walk your own path. No matter what, all you have is your own integrity."
         The Rogue: "When told do not do, you do. There are people who are born to just simply do whatever they know they shouldn't. Adventure only starts after that first sweet moment of rebellion. It's not the act of rebelling that feeds you, it is the adventure that comes afterward. Push the button. I dare you."
-        The Scholar: ''
-        The Stoic: ''
-        The Survivor: ''
-        The Thrill-Seeker: ''
-        The Vigilante: ''
-        The Visionary: ''
+        The Scholar: "Education is your mother. Education is your father. You are always trying to learn the truth of every situation, especially if it is a new to you situation."
+        The Stoic: "Cold-Hearted snake. Never let them see you break that cool facade. You are the rock that many look to in a situation when it goes wrong."
+        The Survivor: "It is you or them, and you will always put you first. This isn't about being fair, just or even respectful -- it is all about surviving."
+        The Thrill-Seeker: "You live in constantly in the highway to the danger zone. You never let the fear of death hold you back."
+        The Vigilante: "There is some deep-seeded need to right the wrongs. You have a very strict personal code of honor that demands action and you take that action."
+        The Visionary: "Larger than life is just the right size. Everything can be bigger, better more close to perfect than it is. You see the potential in all things, even when none exists. It's not just a stone, but it's a piece of artwork or the foundation to a great monument."
         The Judge: "When things go wrong, it often falls to you to make it right, whether you like it or not."
     Camp:
       desc: Which camp are you from?
