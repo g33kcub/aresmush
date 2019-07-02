@@ -44,7 +44,7 @@ demographics:
     Archetype:
       desc: What role do you play?
       values:
-        The Addict: 'Moving from one fix to another, this isn't always about drugs, there is sex, food, music or some other high.'
+        The Addict: "Moving from one fix to another, this isn't always about drugs, there is sex, food, music or some other high."
     Camp:
       desc: Which camp are you from?
       values:
