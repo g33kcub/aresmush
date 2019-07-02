@@ -48,7 +48,7 @@ demographics:
     Camp:
       desc: Which camp are you from?
       values:
-        Eastland: ''
+        Eastland: 'You are from the Eastland Camp.'
         Westland: ''
         Midland: ''
         Downtown: ''
