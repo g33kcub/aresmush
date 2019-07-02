@@ -52,7 +52,7 @@ demographics:
     Archetype:
       desc: What role do you play?
       values:
-        The Addict: 'Moving from one fix to another, this isn't always about drugs, there is sex, food, music or some other high.'
+        The Addict: 
   help_text:
     actor: "%xcactor <actor>%xn - See 'help actors'."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
