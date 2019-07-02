@@ -1,6 +1,7 @@
 ---
 plugins:
   disabled_plugins:
+  - cookies
   - ranks
   config_help_links:
     ffg: https://github.com/AresMUSH/ares-extras/tree/master/plugins/ffg
