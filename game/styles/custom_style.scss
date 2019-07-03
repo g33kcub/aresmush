@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
 body {
-font-family: 'Cinzel', serif;
+font-family: 'Aldrich', sans-serif;
      }
 
 $darker-background:#444;
@@ -12,14 +12,14 @@ blockquote {
   background-color: #483D8B
 }
 
-.log-box, 
+.log-box,
 .profile-box,
 ul.dropdown-menu,
-.nav > li > a:hover, 
+.nav > li > a:hover,
 .nav > li > a:focus,
-.nav .open > a, 
-.nav .open > a:hover, 
-.nav .open > a:focus 
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus
 .nav .open > a,
 .ember-power-select-search,
 .table-striped > tbody > tr:nth-of-type(odd),
@@ -85,16 +85,16 @@ textarea, input {
 }
 
 .nav-tabs,
-.nav-tabs>li>a, 
+.nav-tabs>li>a,
 .nav-tabs > li.active > a {
   border-color: $dark-border;
-  
+
 }
 
-.nav-tabs>li>a:hover, 
+.nav-tabs>li>a:hover,
 .nav-tabs>li>a:focus,
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li.active > a:focus { 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
   border-color: $dark-border;
   background-color: #ccc;
   color: #fff;
