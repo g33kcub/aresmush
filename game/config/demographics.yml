@@ -89,11 +89,11 @@ demographics:
     Camp:
       desc: Which camp are you from?
       values:
-        Eastland: 'You are from the Eastland Camp.'
-        Westland: ''
-        Midland: ''
-        Downtown: ''
-        Underground: ''
+        Eastland: "You are one of the Eastlanders. You hold Alligence with the Lady of the River."
+        Westland: "You are one of the Westlanders. You hold Alligence with the Lord of the Black Path."
+        Midland: "You are a Midlander. You are one of the Merchant Tribe."
+        Downtown: "You are one of the Sky People. You live in the stone and glass buildings."
+        Underground: "You are an Underling. Living in the abandoned sewer system and in manmade tunnels."
   help_text:
     actor: "%xcactor <actor>%xn - See 'help actors'."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
