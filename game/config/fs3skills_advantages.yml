@@ -5,6 +5,10 @@ fs3skills:
     desc: Tangible possessions that have actual practical uses in the world today.
   - name: Treasures
     desc: Tangible possessions that are left over before the days of the invasion. They often only hold emotional value.
+  - name: Synthetic
+    desc: You have escaped being noticed as a Synth. This must be purchased at Rank 3 (Six Points)
+  - name: Former Loyalist
+    desc: You have been on the otherside. You have a bit of knowledge that will help you out. Each rank gives you a +1 advantage to any roll when working against something for the Loyalists. However, each rank also indicates a level of distrust from your fellow Rebels.
   advantages_blurb: 'Advantages represent important things your character possesses
     that are not skills.  Advantages are rated from 1-3. See [FS3: Advantages](http://aresmush.com/fs3/fs3-3/chargen/#advantages)
     for details.'
