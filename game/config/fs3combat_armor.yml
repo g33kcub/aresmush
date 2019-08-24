@@ -1,141 +1,203 @@
 ---
 fs3combat:
   armor:
+    # Generic Armor
     None:
       description: In case you need to take off armor
       defense: 0
       protection:
         Nowhere: 0
-    Tactical:
-      description: Military-Grade Kevlar Vest and Helmet
-      defense: 0
+    # Boat Armor
+    Boat:
+      description: "The timbers of a small boat."
       protection:
-        Head: 7
-        Neck: 5
-        Chest: 8
-        Abdomen: 7
-    Police:
-      description: Police-Grade Kevlar Vest
-      defense: 0
+        Hull: 8
+        Waterline: 8
+        Mast: 8
+        Rigging: 7
+    Medium Heavy Warship:
       protection:
-        Chest: 7
+        Hull: 12
+        Waterline: 12
+        Gundeck: 12
+        Bow: 12
+        Stern: 12
+        Mainmast: 12
+        Formast: 11
+        Rigging: 8
+    Medium Warship:
+      protection:
+        Hull: 10
+        Waterline: 10
+        Gundeck: 10
+        Bow: 10
+        Stern: 10
+        Mainmast: 10
+        Formast: 9
+        Rigging: 7
+    Small Warship:
+      protection:
+        Hull: 10
+        Waterline: 10
+        Gundeck: 10
+        Bow: 10
+        Stern: 10
+        Mainmast: 10
+        Rigging: 8
+    Small Merchant Ship:
+      protection:
+        Hull: 9
+        Waterline: 9
+        Gundeck: 9
+        Bow: 9
+        Stern: 9
+        Mainmast: 9
+        Rigging: 7
+    Large Heavy Warship:
+      protection:
+        Hull: 20
+        Waterline: 20
+        Gundeck: 20
+        Bow: 20
+        Stern: 20
+        Mainmast: 20
+        Formast: 18
+        Aftmast: 18
+        Rigging: 16
+    Large Warship:
+      protection:
+        Hull: 12
+        Waterline: 12
+        Gundeck: 12
+        Bow: 12
+        Stern: 12
+        Mainmast: 12
+        Formast: 11
+        Aftmast: 11
+        Rigging: 8
+    # Human Armor
+    Breast Plate:
+      description: "A solid steel cuirass with leather coat and pants. You can't swim in this."
+      protection:
+        Neck: 6
+        Chest: 6
         Abdomen: 6
+        Left Arm: 4
+        Right Arm: 4
+        Right Leg: 4
+        Left Leg: 4
+        Left Foot: 4
+        Right Foot: 4
+        Groin: 4
       allowed_specials:
-      - Helmet
-    Centurion:
-      description: Cylon Centurion Armor
-      defense: 0
+        - Heavy Helmet
+    Thick Coat:
+      description: "A thick stiff leather coat and gloves."
       protection:
-        Head: 9
-        Neck: 9
-        Chest: 10
-        Abdomen: 10
-        Left Arm: 8
-        Right Arm: 8
-        Left Hand: 7
-        Right Hand: 7
-        Left Leg: 9
-        Right Leg: 9
-        Left Foot: 7
-        Right Foot: 7
-    Cylon:
-      description: Cylon (Non-Centurion) Skeleton
-      defense: 0
-      protection:
-        Head: 6
-        Neck: 7
-        Chest: 7
-        Abdomen: 7
+        Chest: 5
+        Abdomen: 5
         Left Arm: 5
         Right Arm: 5
-        Left Hand: 6
-        Right Hand: 5
-        Left Leg: 6
+        Right Hand: 4
+        Left Hand: 4
+      allowed_specials:
+        - Leather Hat
+    Corset:
+      description: A corsetted dress with a whalebone or wooden insert.
+      protection:
+        Abdomen: 5
+    Fencing Jacket:
+      description: "A thick, padded jacket meant for practicing fencing."
+      protection:
+        Chest: 4
+        Abdomen: 4
+        Left Arm: 4
+        Right Arm: 4
+    # Beast Armor
+    Heavy Hide:
+      description: "The exceptionally tough hide or scales of some animals."
+      protection:
+        Body: 6
+        Head: 6
+        Neck: 6
+        Tail: 6
+        Left Foreleg: 6
+        Right Foreleg: 6
+        Left Rear Leg: 6
+        Right Rear Leg: 6
+        Abdomen: 5
+        Chest: 6
+        Left Fin: 6
+        Right Fin: 6
+        Left Wing: 5
+        Right Wing: 5
+        Tentacles: 6
+        Left Fore Tentacle: 6
+        Right Fore Tentacle: 6
+        Arms: 6
         Right Leg: 6
-        Left Foot: 5
-        Right Foot: 5
-    Viper:
-      description: Viper Vehicle Armor
-      defense: 0
+        Left Leg: 6
+        Groin: 4
+        Left Hand: 4
+        Right Hand: 4
+        Left Foot: 4
+        Right Foot: 4
+    Light Hide:
+      description: "The leathery hide of some animals."
       protection:
-        Body: 8
-        Engine: 8
-        Tail: 8
-        Wing: 8
-        Weapon: 7
-        Nose: 8
-        Cockpit: 6
-        Controls: 7
-    Raider:
-      description: Cylon Raider Vehicle Armor
-      defense: 0
+        	Body: 3
+          Head: 3
+          Neck: 3
+          Tail: 3
+          Left Foreleg: 3
+          Right Foreleg: 3
+          Left Rear Leg: 3
+          Right Rear Leg: 3
+          Abdomen: 2
+          Chest: 3
+          Left Fin: 3
+          Right Fin: 3
+          Left Wing: 2
+          Right Wing: 2
+          Tentacles: 3
+          Left Fore Tentacle: 3
+          Right Fore Tentacle: 3
+          Arms: 3
+          Right Leg: 3
+          Left Leg: 3
+          Groin: 2
+          Left Hand: 3
+          Right Hand: 3
+          Left Foot: 3
+          Right Foot: 3
+    Medium Hide:
+      description: "The tough hide or scales of some animals."
       protection:
-        Body: 8
-        Engine: 8
-        Tail: 8
-        Wing: 8
-        Weapon: 7
-        Nose: 8
-        Cockpit: 6
-        Controls: 7
-    Raptor:
-      description: Raptor Vehicle Armor
-      defense: 0
-      protection:
-        Body: 10
-        Engine: 10
-        Tail: 8
-        Wing: 8
-        Weapon: 6
-        Nose: 8
-        Cockpit: 6
-        Controls: 8
-    Heavy Raider:
-      description: Cylon Heavy Raider Vehicle Armor
-      defense: 0
-      protection:
-        Body: 10
-        Engine: 10
-        Tail: 8
-        Wing: 8
-        Weapon: 6
-        Nose: 8
-        Cockpit: 6
-        Controls: 8
-    Tank:
-      description: Tank Armor
-      defense: 0
-      protection:
-        Body: 22
-        Engine: 22
-        Weapon: 10
-        Track: 15
-        Side: 15
-        Cabin: 22
-    Apc:
-      description: Light Armored Vehicle Armor
-      defense: 0
-      protection:
-        Body: 12
-        Engine: 12
-        Weapon: 6
-        Track: 8
-        Side: 10
-        Cabin: 12
-    Truck:
-      description: Cylon Heavy Raider Vehicle Armor
-      defense: 0
-      protection:
-        Body: 7
-        Cab: 6
-        Engine: 8
-    Aa Battery:
-      description: Anti-Aircraft Battery
-      defense: 0
-      protection:
-        Body: 7
-        Controls: 7
-        Weapon: 6
+        	Body: 5
+          Head: 5
+          Neck: 5
+          Tail: 5
+          Left Foreleg: 5
+          Right Foreleg: 5
+          Left Rear Leg: 5
+          Right Rear Leg: 5
+          Abdomen: 4
+          Chest: 5
+          Left Fin: 5
+          Right Fin: 5
+          Left Wing: 4
+          Right Wing: 4
+          Tentacles: 5
+          Left Fore Tentacle: 5
+          Right Fore Tentacle: 5
+          Arms: 5
+          Right Leg: 5
+          Left Leg: 5
+          Groin: 4
+          Left Hand: 4
+          Right Hand: 4
+          Left Foot: 4
+          Right Foot: 4
   armor specials:
     Helmet:
       description: A helmet
