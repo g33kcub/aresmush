@@ -145,7 +145,7 @@ fs3combat:
     Light Hide:
       description: "The leathery hide of some animals."
       protection:
-      	Body: 3
+        Body: 3
         Head: 3
         Neck: 3
         Tail: 3
