@@ -28,3 +28,5 @@ fs3skills:
     desc: The most common language of the Stoutling.
   - name: Sylvan
     desc: The most common language of the Beast-Kin.
+  - name: Oldspeak
+    desc: The oldest known spoken language.
