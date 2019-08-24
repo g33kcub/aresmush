@@ -14,12 +14,12 @@ who:
     title: Kind
   - field: group
     value: colony
-    width: 16
+    width: 15
     title: Colony
   - field: group
     value: Role
     title: Role
-    width: 11
+    width: 12
   - field: connected
     width: 4
     title: Conn
