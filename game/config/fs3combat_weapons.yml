@@ -253,8 +253,167 @@ fs3combat:
       allowed_specials:
         - Giant
         - Large
-
-
+    # Athletics Weapons
+    Genadoe:
+      description: "A cast-iron sphere filled with gunpowder and a fuse."
+      skill: Athletics
+      lethality: 10
+      penetration: 4
+      weapon_type: Explosive
+      is_automatic: false
+      ammo: 1
+      recoil: 0
+      damage_type: Physical
+      accuracy: -1
+      has_shrapnel: true
+      init_mod: -3
+    Harpoon:
+      description: "A thrown spear with a rope or chain tied to it for whaling."
+      skill: Athletics
+      lethality: 0
+      penetration: 4
+      weapon_type: ranged
+      is_automatic: false
+      ammo: 1
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      reload_turns: 2
+    Thrown Knife:
+      description: "A thrown knife or dagger."
+      skill: Athletics
+      lethality: 0
+      penetration: 2
+      weapon_type: ranged
+      is_automatic: false
+      ammo: 2
+      reload_turns: 1
+      recoil: 0
+      damage_type: physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+    Thrown Rock:
+      description: "A thrown rock or any other improvised weapon."
+      skill: Athletics
+      lethality: -5
+      penetration: 1
+      weapon_type: ranged
+      is_automatic: false
+      ammo: 2
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      reload_turns: 1
+    # Blades Weapons
+    Knife:
+      description: "A simple knife or dagger, or short sword."
+      skill: Blades
+      lethality: 0
+      penetration: 2
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: physical
+      accuracy: 0
+      init_mod: 1
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    Rapier:
+      description: "A thin thrusting blade intended for dueling."
+      skill: Blades
+      lethality: 0
+      penetration: 4
+      weapon_type: melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 3
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    Spear:
+      description: "A long stick with a sharp point, including a musket with plug bayonet or a Halbred."
+      skill: Blades
+      lethality: 0
+      penetration: 3
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: physical
+      accuracy: 0
+      init_mod: 2
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    Sword:
+      description: "A noble small sword, cavalry saber or more common cutlass."
+      skill: Blades
+      lethality: 5
+      penetration: 4
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    # Chain Weapons
+    Chain:
+      description: "A heavy metal chain."
+      skill: Whips
+      lethality: 0
+      penetration: 1
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 1
+      damage_type: Physical
+      accuracy: -1
+      init_mod: 1
+      has_shrapnel: false
+    Whip:
+      description: "A leather whip."
+      skills: Whips
+      lethality: 0
+      penetration: 4
+      weapon_type: Melee
+      recoil: 0
+      damage_type: physical
+      accuracy: -1
+      init_mod: -1
+      has_shrapnel: false
+    Flail Whip:
+      description: "A whip or chain with a blade attached."
+      skill: Whips
+      lethality: 5
+      penetration: 4
+      weapon_type: Melee
+      is_automatic: true
+      recoil: 1
+      damage_type: Physical
+      accuracy: -1
+      init_mod: -1
+      has_shrapnel: false
+    Net:
+      description: "A standard weighted fishing net."
+      skill: Whips
+      lethality: 0
+      penetration: -3
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Stun
+      accuracy: 0
+      init_mod: -3
+      has_shrapnel: false
   weapon specials:
     # Generic Weapon Specials
     Sparring:
