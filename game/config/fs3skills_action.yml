@@ -56,6 +56,9 @@ fs3skills:
   - name: Brawling
     desc: "The ability to fight with your hands and feet effectively."
     linked_attr: Brawn
+  - name: Haggling
+    desc: "The ability to haggle for the best deal."
+    linked_attr: Wits
   action_skills_blurb: 'Action Skills represent your ability in areas deemed important
     for gameplay.  Action Skills are rated from 0-8, but some games limit the highest and lowest ratings. See [FS3: Action Skills](https://aresmush.com/fs3/fs3-3/chargen.html#action-skills)
     for details.'

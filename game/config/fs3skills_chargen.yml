@@ -46,9 +46,9 @@ fs3skills:
           Composure: 2
       Trader:
         skills:
-          Persuasion: 2
           Book Keeping: 2
           Composure: 2
+          Haggling: 3
     Kind:
       Water Folk:
         skills:
