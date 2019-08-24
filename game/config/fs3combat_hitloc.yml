@@ -1204,8 +1204,8 @@ fs3combat:
           - Bow
           - Stern
           - ForMast
-          - MidMast
           - AftMast
+          - MidMast
         Rigging:
           - ForMast
           - Hull
@@ -1262,7 +1262,7 @@ fs3combat:
         - MidMast
         - Hull
         - Waterline
-    1 Mast WarShip:
+    1 Mast Warship:
       areas:
         Hull:
           - Mast
