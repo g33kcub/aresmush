@@ -28,14 +28,18 @@ fs3skills:
           Reflexes: 3
           Presence: 3
           Literacy: 3
+          Blades: 2
       Stoutling:
         skills:
           Khuzdul: 3
           Brawn: 3
+          Bludgeons: 2
+          Reflexes: 1
       Beast-Kin:
         skills:
           Sylvan: 3
           Reflexes: 3
+          Brawling: 2
     Colony:
       Silver Isle:
         skills:
