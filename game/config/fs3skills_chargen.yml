@@ -27,6 +27,7 @@ fs3skills:
           Quenya: 3
           Reflexes: 3
           Presence: 3
+          Literacy: 3
       Stoutling:
         skills:
           Khuzdul: 3
@@ -65,4 +66,6 @@ fs3skills:
   - Quenya
   - Khuzdul
   - Sylvan
+  - Handspeak
+  - Spiritspeak
   advantages_cost: 2
