@@ -1,84 +1,65 @@
 ---
 fs3combat:
   vehicles:
-    Viper:
-      description: Viper space fighter
-      pilot_skill: Piloting
-      toughness: 0
-      hitloc_chart: Fighter
-      armor: Viper
-      weapons:
-      - Kew
-      dodge: 1
-    Raider:
-      description: Cylon Raider space fighter
-      pilot_skill: Piloting
-      toughness: -1
-      hitloc_chart: Fighter
-      armor: Raider
-      weapons:
-      - Kew
-      - Missile
-      - Nuke
-      dodge: 1
-    Raptor:
-      description: Raptor space command and control
-      pilot_skill: Piloting
-      toughness: 2
-      hitloc_chart: Transport
-      armor: Raptor
-      weapons:
-      - Kew
-      - Ecm
-      - Kew
-      - Missile
-      - Talons
-      - Rocket
-      dodge: 0
-    Heavy Raider:
-      description: Cylon Heavy Raider space transport/bomber
-      pilot_skill: Piloting
-      toughness: 2
-      hitloc_chart: Transport
-      armor: Heavy Raider
-      weapons:
-      - Missile
-      - Kew
-      - Rocket
-      dodge: 0
-    Tank:
-      description: Ground battle tank.
-      pilot_skill: Piloting
+    Brig of War:
+      description: "A brig-rigged ship designed for combat. 115-150 Crew, 12 guns per broadside."
+      pilot_skill: Sailing
       toughness: 3
-      hitloc_chart: Tank
-      armor: Tank
-      weapons:
-      - Cannon
-      dodge: 0
-    Apc:
-      description: Armored troop transport.
-      pilot_skill: Piloting
+      hitloc_chart: 2 Mast Warship
+      armor: Medium Heavy Warship
+      weapons: Culverin
+      dodge: -3
+    Brigantine:
+      description: "A merchant style ship with two masts. 40-100 Crew, 8 guns per broadside."
+      pilot_skill: Sailing
+      toughness: 1
+      hitloc_chart: 2 Mast Warship
+      armor: Medium Warship
+      weapons: Culverin
+      dodge: -4
+    Cutter:
+      description: "A small warship with a single mast. 70-100 crew, 8 guns per broadside."
+      pilot_skill: Sailing
       toughness: 2
-      hitloc_chart: Tank
-      armor: Apc
-      weapons:
-      - Hmg
+      hitloc_chart: 1 Mast Warship
+      armor: Small Warship
+      weapons: Culverin
+      dodge: -2
+    Lugger:
+      description: "A fishing vessel with two masts. 10-30 Crew, 2 guns total, if any."
+      pilot_skill: Sailing
+      toughness: -1
+      hitloc_chart: 2 Mast Ship
+      armor: 2 Mast Boat
+      weapons: Culverin
+      dodge: -1
+    Pinnance:
+      description: "A ship's boat attached to another ship. 20 Crew, 1 gun if any."
+      pilot_skill: Sailing
+      toughness: -1
+      hitloc_chart: 1 Mast Boat
+      armor: 1 Mast boat
+      weapons: Culverin
       dodge: 0
-    Truck:
-      description: Unarmored truck
-      pilot_skill: Piloting
-      toughness: 0
-      hitloc_chart: Truck
-      armor: Truck
-      weapons:
-      - Unarmed
-      dodge: 0
-    Aa Battery:
-      description: Anti-Aircraft Battery
-      pilot_skill: Piloting
-      toughness: -2
-      hitloc_chart: Aa Battery
-      armor: Aa Battery
-      weapons:
-      - Missile
-      dodge: 0
+    Sloop:
+      description: "A merchant ship with a single mast. 20-75 Crew, 4 guns per broadside."
+      pilot_skill: Sailing
+      toughness: 1
+      hitloc_chart: Small Warship
+      weapons: Culverin
+      dodge: -2
+      armor: Small Merchant Ship
+    Clipper:
+      description: "A large ship built for combat with 3 masts. 200-300 Crew, 20 guns per broadside."
+      toughness: 4
+      weapons: Culverin
+      dodge: -3
+      armor: Large Warship
+      hitloc_chart: 3 Mast Boat
+    Galleon:
+      description: "A large heavy ship built for all out combat. 200-300 Crew, 25 guns per broadside."
+      toughness: 5
+      weapons: Culverin
+      dodge: -3
+      armor: Large Heavy Warship
+      hitloc_chart: 3 Mast Boat

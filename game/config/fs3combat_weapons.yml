@@ -1,6 +1,22 @@
 ---
 fs3combat:
   weapons:
+    # Vehicle Weapons
+    Culverin:
+      description: "A relatively small 18-pounder cannon."
+      skill: Gunnery
+      lethality: 20
+      penetration: 8
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: -3
+      init_mod: -3
+      has_shrapnel: false
+      allowed_specials:
+        - Grapeshot
+        - Chainshot
     # Required Weapons
     Shrapnel:
       description: Random Shrapnel
@@ -418,6 +434,15 @@ fs3combat:
     # Generic Weapon Specials
     Sparring:
       lethality: -50
+    # Vehicle Weapon Specials
+    Grapeshot:
+      lethality: 20
+      has_shrapnel: true
+      accuracy: -1
+    Chainshot:
+      lethality: 40
+      penetration: 5
+      accuracy: -1
     # Bludgeoning Weapon Specials
     Spiked:
       lethality: 50

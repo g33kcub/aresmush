@@ -540,6 +540,17 @@ fs3combat:
       - Thorax
     Bird:
       areas:
+        Chest:
+          - Chest
+          - Chest
+          - Chest
+          - Neck
+          - Abdomen
+          - Abdomen
+          - Right Wing
+          - Left Wing
+          - Right Leg
+          - Left Leg
         Left Leg:
           - Head
           - Chest
@@ -606,17 +617,6 @@ fs3combat:
           - Right Wing
           - Left Wing
           - Left Wing
-        Chest:
-          - Chest
-          - Chest
-          - Chest
-          - Neck
-          - Abdomen
-          - Abdomen
-          - Right Wing
-          - Left Wing
-          - Right Leg
-          - Left Leg
         Abdomen:
           - Chest
           - Tail
@@ -648,6 +648,17 @@ fs3combat:
         - Head
     Fish:
       areas:
+        Body:
+          - Body
+          - Body
+          - Body
+          - Operculum
+          - Operculum
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Head
+          - Tail
+          - Tail Fin
         Head:
           - Head
           - Head
@@ -714,17 +725,6 @@ fs3combat:
           - Dorsal Fin
           - Tail
           - Head
-        Body:
-          - Body
-          - Body
-          - Body
-          - Operculum
-          - Operculum
-          - Right Pectoral Fin
-          - Left Pectoral Fin
-          - Head
-          - Tail
-          - Tail Fin
         Tail:
           - Body
           - Body
@@ -757,6 +757,17 @@ fs3combat:
     Mammal Fish:
       # Whales and the Like
       areas:
+        Body:
+          - Body
+          - Body
+          - Body
+          - Blow Hole
+          - Blow Hole
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Head
+          - Tail
+          - Tail Fin
         Head:
           - Head
           - Head
@@ -823,17 +834,6 @@ fs3combat:
           - Dorsal Fin
           - Tail
           - Head
-        Body:
-          - Body
-          - Body
-          - Body
-          - Blow Hole
-          - Blow Hole
-          - Right Pectoral Fin
-          - Left Pectoral Fin
-          - Head
-          - Tail
-          - Tail Fin
         Tail:
           - Body
           - Body
@@ -852,3 +852,380 @@ fs3combat:
         - Head
         - Body
         - Blow Hole
+    Aquatic Humanoid:
+      areas:
+        Chest:
+        - Left Leg
+        - Right Leg
+        - Left Arm
+        - Right Arm
+        - Abdomen
+        - Abdomen
+        - Head
+        - Operculum
+        - Chest
+        - Chest
+        Left Leg:
+        - Chest
+        - Right Foot
+        - Right Leg
+        - Right Leg
+        - Abdomen
+        - Abdomen
+        - Left Foot
+        - Left Leg
+        - Left Leg
+        - Left Leg
+        Right Leg:
+        - Chest
+        - Left Foot
+        - Left Leg
+        - Left Leg
+        - Abdomen
+        - Abdomen
+        - Right Foot
+        - Right Leg
+        - Right Leg
+        - Right Leg
+        Groin:
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Left Leg
+        - Right Leg
+        - Left Leg
+        - Right Leg
+        - Operculum
+        - Groin
+        - Groin
+        Left Hand:
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Left Arm
+        - Left Arm
+        - Left Arm
+        - Left Hand
+        - Left Hand
+        - Left Hand
+        Right Hand:
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Right Arm
+        - Right Arm
+        - Right Arm
+        - Right Hand
+        - Right Hand
+        - Right Hand
+        Left Arm:
+        - Head
+        - Chest
+        - Chest
+        - Abdomen
+        - Operculum
+        - Left Hand
+        - Left Hand
+        - Left Arm
+        - Left Arm
+        - Left Arm
+        Right Arm:
+        - Head
+        - Chest
+        - Chest
+        - Abdomen
+        - Operculum
+        - Right Hand
+        - Right Hand
+        - Right Arm
+        - Right Arm
+        - Right Arm
+        Operculum:
+        - Chest
+        - Chest
+        - Chest
+        - Operculum
+        - Operculum
+        - Operculum
+        - Right Arm
+        - Left Arm
+        - Abdomen
+        - Abdomen
+        Head:
+        - Right Arm
+        - Right Arm
+        - Left Arm
+        - Chest
+        - Chest
+        - Neck
+        - Neck
+        - Head
+        - Head
+        - Head
+        Neck:
+        - Right Arm
+        - Right Arm
+        - Left Arm
+        - Chest
+        - Chest
+        - Head
+        - Head
+        - Neck
+        - Neck
+        - Neck
+        Abdomen:
+        - Left Leg
+        - Right Leg
+        - Left Leg
+        - Right Leg
+        - Chest
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Operculum
+      vital_areas:
+      - Chest
+      - Abdomen
+      - Operculum
+      critical_areas:
+      - Head
+      - Neck
+      - Groin
+      - Operculum
+    1 Mast Boat:
+      areas:
+        Hull:
+          - Mast
+          - Mast
+          - Waterline
+          - Waterline
+          - Rigging
+          - Bow
+          - Stern
+          - Hull
+          - Hull
+          - Hull
+        Mast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - Mast
+          - Mast
+          - Mast
+        Rigging:
+          - Mast
+          - Hull
+          - Mast
+          - Hull
+          - Bow
+          - Stern
+          - Mast
+          - Rigging
+          - Rigging
+          - Rigging
+        Bow:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - Mast
+          - Bow
+          - Bow
+          - Bow
+        Stern:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - Mast
+          - Stern
+          - Stern
+        Waterline:
+          - Hull
+          - Hull
+          - Hull
+          - Bow
+          - Bow
+          - Stern
+          - Stern
+          - Waterline
+          - Waterline
+          - Waterline
+    2 Mast Boat:
+      areas:
+        Hull:
+          - ForMast
+          - AftMast
+          - Waterline
+          - Waterline
+          - Rigging
+          - Bow
+          - Stern
+          - Hull
+          - Hull
+          - Hull
+        ForMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - AftMast
+          - ForMast
+          - ForMast
+        AftMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - ForMast
+          - AftMast
+          - AftMast
+        Rigging:
+          - ForMast
+          - Hull
+          - AftMast
+          - Hull
+          - Bow
+          - Stern
+          - ForMast
+          - Rigging
+          - Rigging
+          - Rigging
+        Bow:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - ForMast
+          - Bow
+          - Bow
+          - Bow
+        Stern:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - AftMast
+          - Stern
+          - Stern
+        Waterline:
+          - Hull
+          - Hull
+          - Hull
+          - Bow
+          - Bow
+          - Stern
+          - Stern
+          - Waterline
+          - Waterline
+          - Waterline
+    3 Mast Boat:
+      areas:
+        Hull:
+          - ForMast
+          - AftMast
+          - Waterline
+          - Waterline
+          - Rigging
+          - Bow
+          - Stern
+          - MidMast
+          - Hull
+          - Hull
+        ForMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - AftMast
+          - MidMast
+          - ForMast
+        AftMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - ForMast
+          - MidMast
+          - AftMast
+        MidMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - ForMast
+          - MidMast
+          - AftMast
+        Rigging:
+          - ForMast
+          - Hull
+          - AftMast
+          - Hull
+          - Bow
+          - Stern
+          - MidMast
+          - Rigging
+          - Rigging
+          - Rigging
+        Bow:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - ForMast
+          - Bow
+          - Bow
+          - Bow
+        Stern:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - AftMast
+          - Stern
+          - Stern
+        Waterline:
+          - Hull
+          - Hull
+          - Hull
+          - Bow
+          - Bow
+          - Stern
+          - Stern
+          - Waterline
+          - Waterline
+          - Waterline

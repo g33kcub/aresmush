@@ -8,12 +8,20 @@ fs3combat:
       protection:
         Nowhere: 0
     # Boat Armor
-    Boat:
+    1 Mast Boat:
       description: "The timbers of a small boat."
       protection:
         Hull: 8
         Waterline: 8
         Mast: 8
+        Rigging: 7
+    2 Mast Boat:
+      description: "The timbers of a small boat."
+      protection:
+        Hull: 8
+        Waterline: 8
+        ForMast: 8
+        AftMast: 8
         Rigging: 7
     Medium Heavy Warship:
       description: "The timbers of a medium heavy warship, like a Brig of War."
