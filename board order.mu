@@ -1,0 +1,11 @@
+bbs/order admin=1
+bbs/order announcements=2
+bbs/order black isle=3
+bbs/order broken isle=4
+bbs/order emerald isle=5
+bbs/order floating people=6
+bbs/order new arrivals=7
+bbs/order silver isle=8
+bbs/order tradesport=9
+bbs/order trending scenes=10
+bbs/order wild folk=11
