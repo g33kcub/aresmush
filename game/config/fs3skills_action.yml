@@ -25,6 +25,13 @@ fs3skills:
   - name: Hoodoo
     desc: "The ability to summon mystic energy into spells."
     linked_attr: Grit
+    specialties:
+      - Fire
+      - Stone
+      - Water
+      - Lightning
+      - Hellfire
+      - Wind
   - name: Firearms
     desc: "Use pistols and muskets."
     linked_attr: Reflexes
