@@ -173,31 +173,31 @@ fs3combat:
     Medium Hide:
       description: "The tough hide or scales of some animals."
       protection:
-        	Body: 5
-          Head: 5
-          Neck: 5
-          Tail: 5
-          Left Foreleg: 5
-          Right Foreleg: 5
-          Left Rear Leg: 5
-          Right Rear Leg: 5
-          Abdomen: 4
-          Chest: 5
-          Left Fin: 5
-          Right Fin: 5
-          Left Wing: 4
-          Right Wing: 4
-          Tentacles: 5
-          Left Fore Tentacle: 5
-          Right Fore Tentacle: 5
-          Arms: 5
-          Right Leg: 5
-          Left Leg: 5
-          Groin: 4
-          Left Hand: 4
-          Right Hand: 4
-          Left Foot: 4
-          Right Foot: 4
+        Body: 5
+        Head: 5
+        Neck: 5
+        Tail: 5
+        Left Foreleg: 5
+        Right Foreleg: 5
+        Left Rear Leg: 5
+        Right Rear Leg: 5
+        Abdomen: 4
+        Chest: 5
+        Left Fin: 5
+        Right Fin: 5
+        Left Wing: 4
+        Right Wing: 4
+        Tentacles: 5
+        Left Fore Tentacle: 5
+        Right Fore Tentacle: 5
+        Arms: 5
+        Right Leg: 5
+        Left Leg: 5
+        Groin: 4
+        Left Hand: 4
+        Right Hand: 4
+        Left Foot: 4
+        Right Foot: 4
   armor specials:
     Helmet:
       description: A helmet
