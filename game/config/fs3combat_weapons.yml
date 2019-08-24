@@ -188,6 +188,7 @@ fs3combat:
       weapon_type: Ranged
       is_automatic: false
       ammo: 2
+      reload_turns: 4
       recoil: 0
       damage_type: Physical
       init_mod: 1
