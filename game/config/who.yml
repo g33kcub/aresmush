@@ -9,15 +9,19 @@ who:
     width: 20
     title: Name
   - field: group
+    value: kind
+    width: 10
+    title: Kind
+  - field: group
     value: colony
     width: 16
     title: Colony
   - field: group
-    value: kind
-    width: 18
-    title: Kind
+    value: Role
+    title: Role
+    width: 11
   - field: connected
-    width: 7
+    width: 4
     title: Conn
   - field: idle
     width: 4
