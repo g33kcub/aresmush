@@ -195,7 +195,77 @@ fs3combat:
       init_mod: 1
       accuracy: 0
       has_shrapnel: false
+    Musket:
+      description: "A flintlock musket."
+      skill: Firearms
+      lethality: 5
+      penetration: 7
+      weapon_type: Ranged
+      is_automatic: no
+      ammo: 1
+      reload_turns: 3
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+    Pistol:
+      description: "A flintlock Pistol."
+      skill: Firearms
+      lethality: 0
+      penetration: 6
+      weapon_type: ranged
+      is_automatic: false
+      ammo: 1
+      recoil: 0
+      damage_type: physical
+      accuracy: 0
+      init_mod: 1
+      has_shrapnel: false
+      reload_turns: 2
+    # Brawling Weapons
+    Brawling:
+      description: "Fighting with improvised weapons or without weapons at all."
+      skill: Brawling
+      lethality: -10
+      penetration: 0
+      weapon_type: melee
+      is_automatic: false
+      recoil: 0
+      damage_type: physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    Natural Weapons:
+      description: "Teeth, claws, Beaks of animals and Beast-Kin."
+      skill: Brawling
+      lethality: 0
+      penetration: 3
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      allowed_specials:
+        - Giant
+        - Large
+
+
   weapon specials:
+    # Generic Weapon Specials
+    Sparring:
+      lethality: -50
+    # Brawling Weapon Specials
+    Large:
+      lethality: 5
+      penetration: 3
+    Giant:
+      lethality: 15
+      penetration: 5
     # Faith Weapon Specials
     Greater Smite:
       description: "A plea for greater help than normal."
