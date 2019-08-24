@@ -1,2 +1,11 @@
 ---
-market: {}
+market:
+  resources:
+    - name: Military
+      desc: ''
+    - name: Social
+      desc: ''
+    - name: Economic
+      desc: ''
+    - name: Food
+      desc: ''
