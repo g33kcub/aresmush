@@ -1,7 +1,7 @@
 ---
 fs3combat:
-  treat_skill: Medicine
-  healing_skill: Medicine
+  treat_skill: Healing
+  healing_skill: Healing
   recovery_skill: Brawn
   initiative_skill: Alertness
   composure_skill: Composure

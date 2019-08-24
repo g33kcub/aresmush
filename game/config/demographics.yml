@@ -12,18 +12,18 @@ demographics:
   - full name
   - gender
   - birthdate
-  nickname_field: callsign
+  nickname_field: nickname
   nickname_format: "%{name} (%{nickname})"
   disable_auto_shortcuts: false
   editable_properties:
   - full name
-  - callsign
+  - nickname
   - gender
   - hair
   - physique
   demographics:
   - full name
-  - callsign
+  - nickname
   - gender
   - hair
   - eyes
@@ -33,58 +33,30 @@ demographics:
   - played by
   - birthdate
   groups:
-    Faction:
-      desc: Military faction.
+    Kind:
+      desc: Your character's species.
       wiki: ''
       values:
-        Navy: Join the fleet, see the worlds.
-        Marines: Semper fi.
-    Department:
-      wiki: ''
-      desc: The ship is divided into several departments.  See the wiki for details.
-      values:
-        Air Wing: Viper and Raptor crews and deckhands. (Officers and Enlisted)
-        Marines: Boots on the ground. (Enlisted only)
-        Support: Support personnel - Deck crew, medical. (Officers and Enlisted)
+        Water Folk: You are at home at in the water.
+        Land Folk: You are a basic human.
+        Elfin: You are one of the Elven People.
+        Stoutling: You are one of the dwarven people.
+        Beast-Kin: You are one of the anthromorphic beasts.
     Colony:
-      desc: Your character's home world.
+      desc: Your character's birth colony.
       wiki: ''
       values:
-        Aerilon: Bread basket of the colonies.
-        Aquaria: Cold, harsh world popular with tourists.
-        Canceron: Crowded and hot, a developing nation.
-        Caprica: Rich center of colonial culture and industry.
-        Gemenon: Fundamentalist religion and isolationist people.
-        Leonis: Old imperialist empire in decline, still known for culture and fashion.
-        Libran: Neutral colony renowned for fostering inter-colonial cooperation.
-        Picon: Water world famous for its beaches and strong navy.
-        Sagittaron: Poor colony, oft-exploited, now carved into several protectorates.
-        Scorpia: Lush jungles and bitter clan warfare. Home to shipyards constructing
-          the Battlestars.
-        Tauron: An up-and-coming socialist republic with a strong agricultural base
-          and developing industries.
-        Virgon: A monarchy in decline, clinging to old traditions.
-    Position:
-      desc: Job.
-      wiki: ''
-      values:
-        Viper Pilot: Navy Viper pilot.
-        Raptor Pilot: Navy Raptor pilot.
-        Raptor ECO: Navy Raptor Electronic Countermeasures Officer
-        Rifleman: Marine rifleman.
-        Gunner: Marine support/heavy weapons specialist.
-        Combat Engineer: Marine demolitions, construction, maintenance.
-        Recon: Marine scout.
-        Combat Medic: Marine medic.
-        Doctor: Navy doc.
-        Nurse: Navy nurse.
-        Corpsman: Navy medic.
-        Medical Support: Other medical personnel.
-        Deck Crew: Air wing support/maintenance personnel.
-        Other: Any other position.
+        Silver Isle: "You hail from the Silver Islands."
+        Emerald Isle: "You hail from the Emerald Islands."
+        Black Isle: "You hail from the Black Islands."
+        Broken Isle: "You hail from the Broken Islands."
+        Tradesport: "You hail from Tradesport."
+        Floating People: "You hail from the Floating People."
+        Wild Folk: "You hail from the uncivilized islands."
   shortcuts:
     groups: group
     colonies: group colony
+    kinds: group kind
     demographics: demographic
     birthday: birthdate
     actors: census played by
@@ -99,7 +71,7 @@ demographics:
     eyes: "%xceyes <eye color>%xn"
     skin: "%xcskin <complexion>%xn"
     birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
-    callsign: "%xccallsign <callsign>%xn - Non-pilots may leave blank or enter a nickname."
+    nickname: "%xcnickname <nickname>%xn - Optionally enter a nickname."
     fullname: "%xcfullname <name>%xn - Your character's full name."
   census_fields:
   - field: name
@@ -111,10 +83,10 @@ demographics:
     value: gender
   - field: group
     width: 20
-    title: Faction
-    value: Faction
+    title: Kind
+    value: Kind
   - field: group
     width: 20
-    title: Position
-    value: Position
+    title: Colony
+    value: Colony
   private_properties: []

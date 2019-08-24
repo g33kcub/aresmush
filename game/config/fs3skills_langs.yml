@@ -22,3 +22,9 @@ fs3skills:
     desc: A language used to commune with the spirits. (Latin)
   - name: Ettin
     desc: The most common language of the Broken Isles.
+  - name: Quenya
+    desc: The most common language of the Elfin.
+  - name: Khuzdul
+    desc: The most common language of the Stoutling.
+  - name: Sylvan
+    desc: The most common language of the Beast-Kin.
