@@ -17,8 +17,8 @@ who:
     width: 15
     title: Colony
   - field: group
-    value: Role
-    title: Role
+    value: Archetype
+    title: Archetype
     width: 12
   - field: connected
     width: 4

@@ -7,6 +7,7 @@ roles:
   - coder
   admin_list_roles:
   - admin
+  - helper
   shortcuts:
     roles: role
     staff: admin
