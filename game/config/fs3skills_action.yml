@@ -10,41 +10,45 @@ fs3skills:
   - name: Composure
     desc: Coolness under pressure.
     linked_attr: Grit
-  - name: Demolitions
-    desc: Blowing stuff up.
-    linked_attr: Wits
+  - name: Blades
+    desc: "Using knives, daggers, swords and other bladed weapons."
+    linked_attr: Reflexes
+  - name: Bludgeons
+    desc: "Using axes, maces, and other heavy or weighted weapons."
+    linked_attr: Brawn
+  - name: Deception
+    desc: "The ability to lie convincingly to NPCs. (Can be used to promote RP actions.)"
+    linked_attr: Presence
+  - name: Faith
+    desc: "The ability to call upon higher powers to grant miracles."
+    linked_attr: Grit
+  - name: Hoodoo
+    desc: "The ability to summon mystic energy into spells."
+    linked_attr: Grit
   - name: Firearms
-    desc: Shooting guns.
+    desc: "Use pistols and muskets."
     linked_attr: Reflexes
   - name: Gunnery
-    desc: Vehicle/special weapons (cannons, rockets/missiles, ECM packages).
-    linked_attr: Reflexes
-  - name: Medicine
-    desc: Tending to the ill and injured.
+    desc: "The ability to use mounted cannons and weaponry."
+    linked_attr: Wits
+  - name: Healing
+    desc: "The ability to treat hurt and ill people."
     linked_attr: Wits
     specialties:
-    - Doctor
-    - Surgeon
-    - Nurse
-    - Medic
-    - Other
-  - name: Melee
-    desc: Fighting with fists, knives, and hand-to-hand weapons.
-    linked_attr: Brawn
-  - name: Piloting
-    desc: Flying air and spacecraft.
-    linked_attr: Reflexes
-    specialties:
-    - Viper
-    - Raptor
-    - Freighter
-    - Other
+      - Traditional
+      - Surgery
+  - name: Persuasion
+    desc: "The ability to convince an NPC to do what you want."
+    linked_attr: Presence
+  - name: Sailing
+    desc: "Seamanship, knot tying, navigation and all other things to do with sailing."
+    linked_attr: Wits
   - name: Stealth
-    desc: Being sneaky.
+    desc: "The ability to be sneaky and stealthy."
     linked_attr: Reflexes
-  - name: Technician
-    desc: General mechanics/electronics and fixing things.
-    linked_attr: Wits
+  - name: Brawling
+    desc: "The ability to fight with your hands and feet effectively."
+    linked_attr: Brawn
   action_skills_blurb: 'Action Skills represent your ability in areas deemed important
     for gameplay.  Action Skills are rated from 0-8, but some games limit the highest and lowest ratings. See [FS3: Action Skills](https://aresmush.com/fs3/fs3-3/chargen.html#action-skills)
     for details.'
