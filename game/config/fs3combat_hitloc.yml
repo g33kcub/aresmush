@@ -1051,6 +1051,7 @@ fs3combat:
           - Mast
           - Stern
           - Stern
+          - Stern
         Waterline:
           - Hull
           - Hull
@@ -1135,6 +1136,7 @@ fs3combat:
           - Waterline
           - Waterline
           - AftMast
+          - Stern
           - Stern
           - Stern
         Waterline:
@@ -1236,6 +1238,7 @@ fs3combat:
           - AftMast
           - Stern
           - Stern
+          - Stern
         Waterline:
           - Hull
           - Hull
@@ -1259,7 +1262,7 @@ fs3combat:
         - MidMast
         - Hull
         - Waterline
-    1 Mast Ship:
+    1 Mast WarShip:
       areas:
         Hull:
           - Mast
@@ -1324,6 +1327,7 @@ fs3combat:
           - Waterline
           - Waterline
           - Mast
+          - Stern
           - Stern
           - Stern
         Waterline:
@@ -1421,6 +1425,7 @@ fs3combat:
           - Waterline
           - Waterline
           - AftMast
+          - Stern
           - Stern
           - Stern
         Waterline:
