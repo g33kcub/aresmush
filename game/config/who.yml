@@ -9,13 +9,13 @@ who:
     width: 20
     title: Name
   - field: group
-    value: department
+    value: colony
     width: 16
-    title: Department
+    title: Colony
   - field: group
-    value: position
+    value: kind
     width: 18
-    title: Position
+    title: Kind
   - field: connected
     width: 7
     title: Conn
