@@ -145,31 +145,31 @@ fs3combat:
     Light Hide:
       description: "The leathery hide of some animals."
       protection:
-        	Body: 3
-          Head: 3
-          Neck: 3
-          Tail: 3
-          Left Foreleg: 3
-          Right Foreleg: 3
-          Left Rear Leg: 3
-          Right Rear Leg: 3
-          Abdomen: 2
-          Chest: 3
-          Left Fin: 3
-          Right Fin: 3
-          Left Wing: 2
-          Right Wing: 2
-          Tentacles: 3
-          Left Fore Tentacle: 3
-          Right Fore Tentacle: 3
-          Arms: 3
-          Right Leg: 3
-          Left Leg: 3
-          Groin: 2
-          Left Hand: 3
-          Right Hand: 3
-          Left Foot: 3
-          Right Foot: 3
+      	Body: 3
+        Head: 3
+        Neck: 3
+        Tail: 3
+        Left Foreleg: 3
+        Right Foreleg: 3
+        Left Rear Leg: 3
+        Right Rear Leg: 3
+        Abdomen: 2
+        Chest: 3
+        Left Fin: 3
+        Right Fin: 3
+        Left Wing: 2
+        Right Wing: 2
+        Tentacles: 3
+        Left Fore Tentacle: 3
+        Right Fore Tentacle: 3
+        Arms: 3
+        Right Leg: 3
+        Left Leg: 3
+        Groin: 2
+        Left Hand: 3
+        Right Hand: 3
+        Left Foot: 3
+        Right Foot: 3
     Medium Hide:
       description: "The tough hide or scales of some animals."
       protection:
