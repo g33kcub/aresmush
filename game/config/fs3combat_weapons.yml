@@ -418,6 +418,10 @@ fs3combat:
     # Generic Weapon Specials
     Sparring:
       lethality: -50
+    # Bludgeoning Weapon Specials
+    Spiked:
+      lethality: 50
+      penetration: 5
     # Brawling Weapon Specials
     Large:
       lethality: 5
