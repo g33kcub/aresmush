@@ -1,0 +1,10 @@
+---
+game: !ruby/hash:Sinatra::IndifferentHash
+  name: Dark Seas
+  category: Fantasy
+  description: 'A alt timeline fantasy pirate-themed game. Think Waterworld meets
+    Pirates of the Darkwater meets Pirates of the Caribbean. '
+  website: https://darkseas.online
+  public_game: true
+  game_status: In Development
+  status: In Development
