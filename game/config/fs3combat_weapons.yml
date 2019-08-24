@@ -169,6 +169,7 @@ fs3combat:
       description: "Not a tool, but a glorified smacker."
       lethality: 35
       skill: Bludgeons
+      weapon_type: Melee
       accuracy: 0
       init_mod: -3
       recoil: 0
