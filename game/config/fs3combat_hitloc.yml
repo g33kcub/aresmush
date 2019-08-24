@@ -541,9 +541,6 @@ fs3combat:
     Bird:
       areas:
         Chest:
-          - Chest
-          - Chest
-          - Chest
           - Neck
           - Abdomen
           - Abdomen
@@ -551,6 +548,9 @@ fs3combat:
           - Left Wing
           - Right Leg
           - Left Leg
+          - Chest
+          - Chest
+          - Chest
         Left Leg:
           - Head
           - Chest
@@ -566,13 +566,13 @@ fs3combat:
           - Head
           - Chest
           - Chest
-          - Left Wing
-          - Left Wing
-          - Left Wing
           - Abdomen
           - Left Leg
           - Left Leg
           - Left Leg
+          - Left Wing
+          - Left Wing
+          - Left Wing
         Right Leg:
           - Head
           - Chest
@@ -588,16 +588,14 @@ fs3combat:
           - Head
           - Chest
           - Chest
-          - Right Wing
-          - Right Wing
-          - Right Wing
           - Abdomen
           - Right Leg
           - Right Leg
           - Right Leg
+          - Right Wing
+          - Right Wing
+          - Right Wing
         Head:
-          - Head
-          - Head
           - Chest
           - Chest
           - Neck
@@ -606,28 +604,30 @@ fs3combat:
           - Right Wing
           - Left Wing
           - Left Wing
+          - Head
+          - Head
         Neck:
           - Head
           - Head
           - Chest
           - Chest
-          - Neck
-          - Neck
           - Right Wing
           - Right Wing
           - Left Wing
           - Left Wing
+          - Neck
+          - Neck
         Abdomen:
           - Chest
           - Tail
           - Abdomen
           - Neck
           - Abdomen
-          - Abdomen
           - Right Wing
           - Left Wing
           - Right Leg
           - Left Leg
+          - Abdomen
         Tail:
           - Tail
           - Right Wing
@@ -649,9 +649,6 @@ fs3combat:
     Fish:
       areas:
         Body:
-          - Body
-          - Body
-          - Body
           - Operculum
           - Operculum
           - Right Pectoral Fin
@@ -659,9 +656,10 @@ fs3combat:
           - Head
           - Tail
           - Tail Fin
+          - Body
+          - Body
+          - Body
         Head:
-          - Head
-          - Head
           - Ventral Fin
           - Ventral Fin
           - Operculum
@@ -670,6 +668,8 @@ fs3combat:
           - Body
           - Right Pectoral Fin
           - Left Pectoral Fin
+          - Head
+          - Head
         Tail Fin:
           - Body
           - Body
@@ -688,32 +688,32 @@ fs3combat:
           - Body
           - Body
           - Body
-          - Operculum
-          - Operculum
           - Tail
           - Dorsal Fin
+          - Operculum
+          - Operculum
         Right Pectoral Fin:
           - Body
           - Body
           - Body
           - Body
           - Body
-          - Right Pectoral Fin
-          - Right Pectoral Fin
-          - Right Pectoral Fin
           - Operculum
           - Operculum
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Right Pectoral Fin
         Left Pectoral Fin:
           - Body
           - Body
           - Body
           - Body
           - Body
-          - Left Pectoral Fin
-          - Left Pectoral Fin
-          - Left Pectoral Fin
           - Operculum
           - Operculum
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Left Pectoral Fin
         Dorsal Fin:
           - Body
           - Body
@@ -721,25 +721,22 @@ fs3combat:
           - Operculum
           - Right Pectoral Fin
           - Left Pectoral Fin
-          - Dorsal Fin
-          - Dorsal Fin
           - Tail
           - Head
+          - Dorsal Fin
+          - Dorsal Fin
         Tail:
           - Body
           - Body
-          - Tail
-          - Tail
-          - Tail
-          - Tail
+          - Body
           - Tail Fin
           - Tail Fin
           - Tail Fin
           - Tail Fin
+          - Tail
+          - Tail
+          - Tail
         Ventral Fin:
-          - Ventral Fin
-          - Ventral Fin
-          - Ventral Fin
           - Body
           - Body
           - Body
@@ -747,6 +744,9 @@ fs3combat:
           - Head
           - Head
           - Operculum
+          - Ventral Fin
+          - Ventral Fin
+          - Ventral Fin
       vital_areas:
         - Head
         - Operculum
@@ -758,9 +758,6 @@ fs3combat:
       # Whales and the Like
       areas:
         Body:
-          - Body
-          - Body
-          - Body
           - Blow Hole
           - Blow Hole
           - Right Pectoral Fin
@@ -768,10 +765,10 @@ fs3combat:
           - Head
           - Tail
           - Tail Fin
+          - Body
+          - Body
+          - Body
         Head:
-          - Head
-          - Head
-          - Head
           - Blow Hole
           - Blow Hole
           - Body
@@ -779,6 +776,9 @@ fs3combat:
           - Body
           - Right Pectoral Fin
           - Left Pectoral Fin
+          - Head
+          - Head
+          - Head
         Tail Fin:
           - Body
           - Body
@@ -797,32 +797,32 @@ fs3combat:
           - Body
           - Body
           - Body
-          - Blow Hole
-          - Blow Hole
           - Tail
           - Dorsal Fin
+          - Blow Hole
+          - Blow Hole
         Right Pectoral Fin:
           - Body
           - Body
           - Body
           - Body
           - Body
-          - Right Pectoral Fin
-          - Right Pectoral Fin
-          - Right Pectoral Fin
           - Blow Hole
           - Blow Hole
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Right Pectoral Fin
         Left Pectoral Fin:
           - Body
           - Body
           - Body
           - Body
           - Body
-          - Left Pectoral Fin
-          - Left Pectoral Fin
-          - Left Pectoral Fin
           - Blow Hole
           - Blow Hole
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Left Pectoral Fin
         Dorsal Fin:
           - Body
           - Body
@@ -830,21 +830,21 @@ fs3combat:
           - Blow Hole
           - Right Pectoral Fin
           - Left Pectoral Fin
-          - Dorsal Fin
-          - Dorsal Fin
           - Tail
           - Head
+          - Dorsal Fin
+          - Dorsal Fin
         Tail:
           - Body
           - Body
-          - Tail
-          - Tail
-          - Tail
-          - Tail
+          - Body
           - Tail Fin
           - Tail Fin
           - Tail Fin
           - Tail Fin
+          - Tail
+          - Tail
+          - Tail
       vital_areas:
         - Head
         - Blow Hole
@@ -946,13 +946,13 @@ fs3combat:
         - Chest
         - Chest
         - Chest
-        - Operculum
-        - Operculum
-        - Operculum
         - Right Arm
         - Left Arm
         - Abdomen
         - Abdomen
+        - Operculum
+        - Operculum
+        - Operculum
         Head:
         - Right Arm
         - Right Arm
@@ -983,9 +983,9 @@ fs3combat:
         - Chest
         - Chest
         - Chest
-        - Abdomen
-        - Abdomen
         - Operculum
+        - Abdomen
+        - Abdomen
       vital_areas:
       - Chest
       - Abdomen
@@ -1062,6 +1062,14 @@ fs3combat:
           - Waterline
           - Waterline
           - Waterline
+      vital_areas:
+        - Waterline
+        - Mast
+        - Rigging
+      critical_areas:
+        - Mast
+        - Hull
+        - Waterline
     2 Mast Boat:
       areas:
         Hull:
@@ -1140,6 +1148,16 @@ fs3combat:
           - Waterline
           - Waterline
           - Waterline
+      vital_areas:
+        - Waterline
+        - ForMast
+        - AftMast
+        - Rigging
+      critical_areas:
+        - ForMast
+        - AftMast
+        - Hull
+        - Waterline
     3 Mast Boat:
       areas:
         Hull:
@@ -1229,3 +1247,200 @@ fs3combat:
           - Waterline
           - Waterline
           - Waterline
+      vital_areas:
+        - Waterline
+        - ForMast
+        - AftMast
+        - MidMast
+        - Rigging
+      critical_areas:
+        - ForMast
+        - AftMast
+        - MidMast
+        - Hull
+        - Waterline
+    1 Mast Ship:
+      areas:
+        Hull:
+          - Mast
+          - Mast
+          - Waterline
+          - Waterline
+          - Rigging
+          - Bow
+          - Stern
+          - Hull
+          - Hull
+          - Hull
+        Mast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - Mast
+          - Mast
+          - Mast
+        Gundeck:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Mast
+          - Mast
+          - Gundeck
+          - Gundeck
+          - Gundeck
+        Rigging:
+          - Mast
+          - Hull
+          - Mast
+          - Hull
+          - Bow
+          - Stern
+          - Mast
+          - Rigging
+          - Rigging
+          - Rigging
+        Bow:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - Mast
+          - Bow
+          - Bow
+          - Bow
+        Stern:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - Mast
+          - Stern
+          - Stern
+        Waterline:
+          - Hull
+          - Hull
+          - Hull
+          - Bow
+          - Bow
+          - Stern
+          - Stern
+          - Waterline
+          - Waterline
+          - Waterline
+      vital_areas:
+        - Waterline
+        - Mast
+        - Rigging
+      critical_areas:
+        - Mast
+        - Hull
+        - Waterline
+    2 Mast Warship:
+      areas:
+        Hull:
+          - ForMast
+          - AftMast
+          - Waterline
+          - Waterline
+          - Rigging
+          - Bow
+          - Stern
+          - Hull
+          - Hull
+          - Hull
+        Gundeck:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - ForMast
+          - AftMast
+          - Gundeck
+          - Gundeck
+          - Gundeck
+        ForMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - AftMast
+          - ForMast
+          - ForMast
+        AftMast:
+          - Hull
+          - Hull
+          - Rigging
+          - Rigging
+          - Waterline
+          - Bow
+          - Stern
+          - ForMast
+          - AftMast
+          - AftMast
+        Rigging:
+          - ForMast
+          - Hull
+          - AftMast
+          - Hull
+          - Bow
+          - Stern
+          - ForMast
+          - Rigging
+          - Rigging
+          - Rigging
+        Bow:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - ForMast
+          - Bow
+          - Bow
+          - Bow
+        Stern:
+          - Hull
+          - Hull
+          - Hull
+          - Waterline
+          - Waterline
+          - Waterline
+          - AftMast
+          - Stern
+          - Stern
+        Waterline:
+          - Hull
+          - Hull
+          - Hull
+          - Bow
+          - Bow
+          - Stern
+          - Stern
+          - Waterline
+          - Waterline
+          - Waterline
+      vital_areas:
+        - Waterline
+        - ForMast
+        - AftMast
+        - Rigging
+      critical_areas:
+        - ForMast
+        - AftMast
+        - Hull
+        - Waterline

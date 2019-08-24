@@ -10,21 +10,28 @@ fs3combat:
     # Boat Armor
     1 Mast Boat:
       description: "The timbers of a small boat."
+      defense: 0
       protection:
         Hull: 8
         Waterline: 8
         Mast: 8
+        Bow: 8
+        Stern: 8
         Rigging: 7
     2 Mast Boat:
       description: "The timbers of a small boat."
+      defense: 0
       protection:
         Hull: 8
         Waterline: 8
         ForMast: 8
         AftMast: 8
+        Bow: 8
+        Stern: 8
         Rigging: 7
     Medium Heavy Warship:
       description: "The timbers of a medium heavy warship, like a Brig of War."
+      defense: 2
       protection:
         Hull: 12
         Waterline: 12
@@ -36,6 +43,7 @@ fs3combat:
         Rigging: 8
     Medium Warship:
       description: "The timbers of a medium warship, like a brigantine."
+      defense: 2
       protection:
         Hull: 10
         Waterline: 10
@@ -47,6 +55,7 @@ fs3combat:
         Rigging: 7
     Small Warship:
       description: "The timbers of a small warship, like a naval cutter."
+      defense: 1
       protection:
         Hull: 10
         Waterline: 10
@@ -57,6 +66,7 @@ fs3combat:
         Rigging: 8
     Small Merchant Ship:
       description: "The timbers of a small merchant ship, like a sloop."
+      defense: 1
       protection:
         Hull: 9
         Waterline: 9
@@ -67,6 +77,7 @@ fs3combat:
         Rigging: 7
     Large Heavy Warship:
       description: "The Timbers of a heavy large warship."
+      defense: 3
       protection:
         Hull: 20
         Waterline: 20
@@ -79,6 +90,7 @@ fs3combat:
         Rigging: 16
     Large Warship:
       description: "The timbers of a large warhsip."
+      defense: 3
       protection:
         Hull: 12
         Waterline: 12
@@ -92,6 +104,7 @@ fs3combat:
     # Human Armor
     Breast Plate:
       description: "A solid steel cuirass with leather coat and pants. You can't swim in this."
+      defense: 1
       protection:
         Neck: 6
         Chest: 6
@@ -107,6 +120,7 @@ fs3combat:
         - Heavy Helmet
     Thick Coat:
       description: "A thick stiff leather coat and gloves."
+      defense: 0
       protection:
         Chest: 5
         Abdomen: 5
@@ -118,10 +132,12 @@ fs3combat:
         - Leather Hat
     Corset:
       description: A corsetted dress with a whalebone or wooden insert.
+      defense: 0
       protection:
         Abdomen: 5
     Fencing Jacket:
       description: "A thick, padded jacket meant for practicing fencing."
+      defense: 0
       protection:
         Chest: 4
         Abdomen: 4
@@ -129,6 +145,7 @@ fs3combat:
         Right Arm: 4
     Pitch Coat:
       description: "A jacket and pants stiffened with pitch."
+      defense: 0
       protection:
         Chest: 4
         Abdomen: 4
@@ -140,6 +157,7 @@ fs3combat:
         Left Foot: 4
         Groin: 4
     Leathers:
+      defense: 0
       description: "A basic set of leather armor."
       protection:
         Chest: 5

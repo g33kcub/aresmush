@@ -29,7 +29,7 @@ fs3combat:
       description: "A fishing vessel with two masts. 10-30 Crew, 2 guns total, if any."
       pilot_skill: Sailing
       toughness: -1
-      hitloc_chart: 2 Mast Ship
+      hitloc_chart: 2 Mast Boat
       armor: 2 Mast Boat
       weapons: Culverin
       dodge: -1
@@ -38,14 +38,14 @@ fs3combat:
       pilot_skill: Sailing
       toughness: -1
       hitloc_chart: 1 Mast Boat
-      armor: 1 Mast boat
+      armor: Small Warship
       weapons: Culverin
       dodge: 0
     Sloop:
       description: "A merchant ship with a single mast. 20-75 Crew, 4 guns per broadside."
       pilot_skill: Sailing
       toughness: 1
-      hitloc_chart: Small Warship
+      hitloc_chart: 1 Mast Boat
       weapons: Culverin
       dodge: -2
       armor: Small Merchant Ship
@@ -56,6 +56,7 @@ fs3combat:
       dodge: -3
       armor: Large Warship
       hitloc_chart: 3 Mast Boat
+      pilot_skill: Sailing
     Galleon:
       description: "A large heavy ship built for all out combat. 200-300 Crew, 25 guns per broadside."
       toughness: 5
@@ -63,3 +64,4 @@ fs3combat:
       dodge: -3
       armor: Large Heavy Warship
       hitloc_chart: 3 Mast Boat
+      pilot_skill: Sailing
