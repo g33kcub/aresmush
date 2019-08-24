@@ -25,10 +25,12 @@ fs3skills:
     Archetype:
       Priest:
         skills:
+          Spirit: 2
           Faith: 2
           Composure: 2
       Witch:
         skills:
+          Spirit: 2
           Hoodoo: 2
           Composure: 2
       Sailor:
@@ -42,6 +44,7 @@ fs3skills:
           Athletics: 2
       Shaman:
         skills:
+          Spirit: 2
           Hoodoo: 1
           Faith: 1
           Composure: 2
