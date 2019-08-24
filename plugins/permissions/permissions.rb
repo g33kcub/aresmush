@@ -12,7 +12,11 @@ module AresMUSH
     end
 
     def self.get_cmd_handler(client, cmd, enactor)
-      nil
+      return nil if !cmd.root_is?("permissions")
+      case cmd.switch
+      when nil
+        return PermissionsListCmd
+      end
     end
 
     def self.get_event_handler(event_name)
