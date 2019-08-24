@@ -21,10 +21,10 @@ fs3skills:
     linked_attr: Presence
   - name: Faith
     desc: "The ability to call upon higher powers to grant miracles."
-    linked_attr: Grit
+    linked_attr: Spirit
   - name: Hoodoo
     desc: "The ability to summon mystic energy into spells."
-    linked_attr: Grit
+    linked_attr: Spirit
     specialties:
       - Fire
       - Stone

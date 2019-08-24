@@ -21,6 +21,7 @@ fs3skills:
       skills:
         Faith: 0
         Hoodoo: 0
+        Spirit: 1
     Archetype:
       Priest:
         skills:

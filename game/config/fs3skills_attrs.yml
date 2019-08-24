@@ -18,3 +18,5 @@ fs3skills:
     desc: Senses and general awareness.
   - name: Presence
     desc: Charisma and beauty.
+  - name: Spirit
+    desc: Innate Mystical Power.
