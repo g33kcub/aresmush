@@ -20,3 +20,5 @@ fs3skills:
     desc: A language derived from hand signs and motions. (ASL)
   - name: Spiritspeak
     desc: A language used to commune with the spirits. (Latin)
+  - name: Ettin
+    desc: The most common language of the Broken Isles.
