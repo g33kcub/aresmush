@@ -1,9 +1,7 @@
 ---
 fs3combat:
   weapons:
-################################################################################
-# Required Weapons
-################################################################################
+    # Required Weapons
     Shrapnel:
       description: Random Shrapnel
       skill: 3
@@ -16,42 +14,38 @@ fs3combat:
       accuracy: 0
       has_shrapnel: false
       init_mod: 0
-################################################################################
-# Faith Weapons
-################################################################################
-   Smite:
-     description: "A prayer or invocation for damaging a target."
-     skill: Faith
-     lethality: 30
-     penetration: 2
-     weapon_type: Ranged
-     is_automatic: false
-     recoil: -3
-     damage_type: physical
-     has_shrapnel: false
-     init_mod: -1
-     accuracy: 3
-     ammo: 3
-     allowed_specials:
-       - Greater Smite
-   Rebuke:
-     description: "A powerful wave of divine power to stun and possibly damage those before you."
-     skill: Faith
-     ammo: 1
-     lethality: 50
-     penetration: 4
-     weapon_type: Explosive
-     is_automatic: false
-     recoil: -3
-     damage_type: stun
-     has_shrapnel: true
-     init_mod: 0
-     accuracy: 3
-     allowed_specials:
-       - Turn
-################################################################################
-# Hoodoo Weapons
-################################################################################
+    # Faith Weapons
+    Smite:
+      description: "A prayer or invocation for damaging a target."
+      skill: Faith
+      lethality: 30
+      penetration: 2
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: -3
+      damage_type: physical
+      has_shrapnel: false
+      init_mod: -1
+      accuracy: 3
+      ammo: 3
+      allowed_specials:
+        - Greater Smite
+    Rebuke:
+      description: "A powerful wave of divine power to stun and possibly damage those before you."
+      skill: Faith
+      ammo: 1
+      lethality: 50
+      penetration: 4
+      weapon_type: Explosive
+      is_automatic: false
+      recoil: -3
+      damage_type: stun
+      has_shrapnel: true
+      init_mod: 0
+      accuracy: 3
+      allowed_specials:
+        - Turn
+    # Hoodoo Weapons
     Warding:
       description: "An barrier to defend against physical melee attacks and provide some minor offensive."
       skill: Hoodoo
@@ -129,22 +123,18 @@ fs3combat:
         - Hellfire
         - Wind
   weapon specials:
-################################################################################
-# Faith Weapon Specials
-################################################################################
-   Greater Smite:
-     description: "A plea for greater help than normal."
-     lethality: 15
-     damage_type: Explosive
-     has_shrapnel: true
-     penetration: 4
-  Turn:
-    description: "Imbuing all your faith."
-    lethality: 30
-    damage_type: Physical
-################################################################################
-# Hoodoo Weapon specials
-################################################################################
+    # Faith Weapon Specials
+    Greater Smite:
+      description: "A plea for greater help than normal."
+      lethality: 15
+      damage_type: Explosive
+      has_shrapnel: true
+      penetration: 4
+    Turn:
+      description: "Imbuing all your faith."
+      lethality: 30
+      damage_type: Physical
+    # Hoodoo Weapon specials
     Fire:
       description: "Using the element of fire."
       lethality: 50
