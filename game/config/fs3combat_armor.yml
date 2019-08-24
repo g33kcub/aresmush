@@ -16,6 +16,7 @@ fs3combat:
         Mast: 8
         Rigging: 7
     Medium Heavy Warship:
+      description: "The timbers of a medium heavy warship, like a Brig of War."
       protection:
         Hull: 12
         Waterline: 12
@@ -26,6 +27,7 @@ fs3combat:
         Formast: 11
         Rigging: 8
     Medium Warship:
+      description: "The timbers of a medium warship, like a brigantine."
       protection:
         Hull: 10
         Waterline: 10
@@ -36,6 +38,7 @@ fs3combat:
         Formast: 9
         Rigging: 7
     Small Warship:
+      description: "The timbers of a small warship, like a naval cutter."
       protection:
         Hull: 10
         Waterline: 10
@@ -45,6 +48,7 @@ fs3combat:
         Mainmast: 10
         Rigging: 8
     Small Merchant Ship:
+      description: "The timbers of a small merchant ship, like a sloop."
       protection:
         Hull: 9
         Waterline: 9
@@ -54,6 +58,7 @@ fs3combat:
         Mainmast: 9
         Rigging: 7
     Large Heavy Warship:
+      description: "The Timbers of a heavy large warship."
       protection:
         Hull: 20
         Waterline: 20
@@ -65,6 +70,7 @@ fs3combat:
         Aftmast: 18
         Rigging: 16
     Large Warship:
+      description: "The timbers of a large warhsip."
       protection:
         Hull: 12
         Waterline: 12
@@ -113,93 +119,178 @@ fs3combat:
         Abdomen: 4
         Left Arm: 4
         Right Arm: 4
+    Pitch Coat:
+      description: "A jacket and pants stiffened with pitch."
+      protection:
+        Chest: 4
+        Abdomen: 4
+        Right Arm: 4
+        Left Arm: 4
+        Right Leg: 4
+        Left Leg: 4
+        Right Foot: 4
+        Left Foot: 4
+        Groin: 4
+    Leathers:
+      description: "A basic set of leather armor."
+      protection:
+        Chest: 5
+        Abdomen: 5
+        Left Arm: 5
+        Right Arm: 5
+        Left Leg: 5
+        Right Leg: 5
+        Groin: 5
+        Right Foot: 5
+        Left Leg: 5
+        Right Hand: 4
+        Left Hand: 4
     # Beast Armor
+    Epic Hide:
+      description: "The legendarily tough hide or scales of some animals."
+      defense: 4
+      protection:
+        # Primary Protection: 8
+        # Secondary Protection: 6
+        Mantle: 8
+        Head: 8
+        Arm: 6
+        Rear Right Leg: 6
+        Rear Left Leg: 6
+        Front Right Leg: 6
+        Front Left Leg: 6
+        Chest: 8
+        Abdomen: 8
+        Neck: 6
+        Groin: 6
+        Tail: 6
+        Right Flank: 6
+        Left Flank: 6
+        Left Leg: 6
+        Right Leg: 6
+        Thorax: 8
+        Right Wing: 6
+        Left Wing: 6
+        Dorsal Fin: 6
+        Ventral Fin: 6
+        Right Pectoral Fin: 6
+        Left Pectoral Fin: 6
+        Blow Hole: 6
+        Operculum: 6
+        Tail Fin: 6
+      allowed_specials:
+        - Armor Plating
     Heavy Hide:
       description: "The exceptionally tough hide or scales of some animals."
+      defense: 2
       protection:
-        Body: 6
+        # Primary Protection: 6
+        # Secondary Protection: 4
+        Mantle: 6
         Head: 6
-        Neck: 6
-        Tail: 6
-        Left Foreleg: 6
-        Right Foreleg: 6
-        Left Rear Leg: 6
-        Right Rear Leg: 6
-        Abdomen: 5
+        Arm: 4
+        Rear Right Leg: 4
+        Rear Left Leg: 4
+        Front Right Leg: 4
+        Front Left Leg: 4
         Chest: 6
-        Left Fin: 6
-        Right Fin: 6
-        Left Wing: 5
-        Right Wing: 5
-        Tentacles: 6
-        Left Fore Tentacle: 6
-        Right Fore Tentacle: 6
-        Arms: 6
-        Right Leg: 6
-        Left Leg: 6
+        Abdomen: 6
+        Neck: 4
         Groin: 4
-        Left Hand: 4
-        Right Hand: 4
-        Left Foot: 4
-        Right Foot: 4
+        Tail: 4
+        Right Flank: 4
+        Left Flank: 4
+        Left Leg: 4
+        Right Leg: 4
+        Thorax: 6
+        Right Wing: 4
+        Left Wing: 4
+        Dorsal Fin: 4
+        Ventral Fin: 4
+        Right Pectoral Fin: 4
+        Left Pectoral Fin: 4
+        Blow Hole: 4
+        Operculum: 4
+        Tail Fin: 4
+      allowed_specials:
+        - Armor Plating
     Light Hide:
       description: "The leathery hide of some animals."
+      defense: 0
       protection:
-        Body: 3
-        Head: 3
-        Neck: 3
-        Tail: 3
-        Left Foreleg: 3
-        Right Foreleg: 3
-        Left Rear Leg: 3
-        Right Rear Leg: 3
-        Abdomen: 2
-        Chest: 3
-        Left Fin: 3
-        Right Fin: 3
-        Left Wing: 2
-        Right Wing: 2
-        Tentacles: 3
-        Left Fore Tentacle: 3
-        Right Fore Tentacle: 3
-        Arms: 3
-        Right Leg: 3
-        Left Leg: 3
+        # Primary Protection: 4
+        # Secondary Protection: 2
+        Mantle: 4
+        Arm: 2
+        Head: 4
+        Rear Right Leg: 2
+        Rear Left Leg: 2
+        Front Right Leg: 2
+        Front Left Leg: 2
+        Chest: 2
+        Abdomen: 4
+        Neck: 2
         Groin: 2
-        Left Hand: 3
-        Right Hand: 3
-        Left Foot: 3
-        Right Foot: 3
+        Right Flank: 2
+        Left Flank: 2
+        Tail: 2
+        Left Leg: 2
+        Right Leg: 2
+        Thorax: 4
+        Right Wing: 2
+        Left Wing: 2
+        Dorsal Fin: 2
+        Ventral Fin: 2
+        Right Pectoral Fin: 2
+        Left Pectoral Fin: 2
+        Blow Hole: 2
+        Operculum: 2
+        Tail Fin: 2
+      allowed_specials:
+        - Armor Plating
     Medium Hide:
       description: "The tough hide or scales of some animals."
+      defense: 1
       protection:
-        Body: 5
+        # Primary Protection: 5
+        # Secondary Protection: 3
+        Mantle: 5
         Head: 5
-        Neck: 5
-        Tail: 5
-        Left Foreleg: 5
-        Right Foreleg: 5
-        Left Rear Leg: 5
-        Right Rear Leg: 5
-        Abdomen: 4
+        Arm: 3
+        Rear Right Leg: 3
+        Rear Left Leg: 3
+        Front Right Leg: 3
+        Front Left Leg: 3
         Chest: 5
-        Left Fin: 5
-        Right Fin: 5
-        Left Wing: 4
-        Right Wing: 4
-        Tentacles: 5
-        Left Fore Tentacle: 5
-        Right Fore Tentacle: 5
-        Arms: 5
-        Right Leg: 5
-        Left Leg: 5
-        Groin: 4
-        Left Hand: 4
-        Right Hand: 4
-        Left Foot: 4
-        Right Foot: 4
+        Abdomen: 5
+        Neck: 3
+        Groin: 3
+        Right Flank: 3
+        Left Flank: 3
+        Tail: 3
+        Left Leg: 3
+        Right Leg: 3
+        Thorax: 5
+        Right Wing: 3
+        Left Wing: 3
+        Dorsal Fin: 3
+        Ventral Fin: 3
+        Right Pectoral Fin: 3
+        Left Pectoral Fin: 3
+        Blow Hole: 3
+        Operculum: 3
+        Tail Fin: 3
+      allowed_specials:
+        - Armor Plating
   armor specials:
-    Helmet:
-      description: A helmet
+    Heavy Helmet:
+      description: A heavy helmet.
       protection:
-        Head: 4
+        Head: 6
+    Leather Hat:
+      description: A tough leather hat.
+      protection:
+        Head: 3
+    Armor Plating:
+      description: "The creature has toughed armored plating."
+      defense: 2

@@ -131,3 +131,724 @@ fs3combat:
       - Head
       - Neck
       - Groin
+    Octopus:
+      areas:
+        Mantle:
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Head
+        - Mantle
+        - Mantle
+        - Mantle
+        Head:
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Mantle
+        - Mantle
+        - Head
+        - Head
+        Arm:
+        - Mantle
+        - Mantle
+        - Head
+        - Head
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+        - Arm
+      vital_areas:
+      - Mantle
+      critical_areas:
+      - Head
+    Quadraped:
+      areas:
+        Chest:
+        - Rear Left Leg
+        - Rear Right Leg
+        - Front Left Leg
+        - Front Right Leg
+        - Abdomen
+        - Abdomen
+        - Head
+        - Chest
+        - Chest
+        - Chest
+        Rear Left Leg:
+        - Chest
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        Rear Right Leg:
+        - Chest
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        - Abdomen
+        - Abdomen
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        Groin:
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Rear Left Leg
+        - Rear Right Leg
+        - Rear Left Leg
+        - Rear Right Leg
+        - Groin
+        - Groin
+        - Groin
+        Front Left Leg:
+        - Head
+        - Chest
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        Front Right Leg:
+        - Head
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        Head:
+        - Front Right Leg
+        - Front Right Leg
+        - Front Left Leg
+        - Chest
+        - Chest
+        - Neck
+        - Neck
+        - Head
+        - Head
+        - Head
+        Neck:
+        - Front Right Leg
+        - Front Right Leg
+        - Front Left Leg
+        - Chest
+        - Chest
+        - Head
+        - Head
+        - Neck
+        - Neck
+        - Neck
+        Abdomen:
+        - Rear Left Leg
+        - Rear Right Leg
+        - Rear Left Leg
+        - Rear Right Leg
+        - Chest
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Abdomen
+      vital_areas:
+      - Chest
+      - Abdomen
+      critical_areas:
+      - Head
+      - Neck
+      - Groin
+    Serpent:
+      areas:
+        Head:
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        - Head
+        - Head
+        - Head
+        - Head
+        Right Flank:
+        - Tail
+        - Tail
+        - Tail
+        - Head
+        - Head
+        - Left Flank
+        - Left Flank
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        Left Flank:
+        - Tail
+        - Tail
+        - Tail
+        - Head
+        - Head
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        Tail:
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        - Tail
+        - Tail
+        - Tail
+        - Tail
+      vital_areas:
+      - Head
+      critical_areas:
+      - Left Flank
+    Insect:
+      areas:
+        Left Leg:
+        - Thorax
+        - Right Leg
+        - Right Leg
+        - Right Leg
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Left Leg
+        - Left Leg
+        - Left Leg
+        Right Leg:
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Left Leg
+        - Left Leg
+        - Left Leg
+        - Right Leg
+        - Right Leg
+        - Right Leg
+        Rear Left Leg:
+        - Thorax
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        Rear Right Leg:
+        - Thorax
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        - Abdomen
+        - Abdomen
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        Front Left Leg:
+        - Head
+        - Thorax
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        Front Right Leg:
+        - Head
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        Head:
+        - Front Right Leg
+        - Front Right Leg
+        - Front Left Leg
+        - Abdomen
+        - Abdomen
+        - Thorax
+        - Thorax
+        - Head
+        - Head
+        - Head
+        Abdomen:
+        - Rear Left Leg
+        - Rear Right Leg
+        - Rear Left Leg
+        - Rear Right Leg
+        - Chest
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Abdomen
+      vital_areas:
+      - Abdomen
+      critical_areas:
+      - Thorax
+    Flying Insect:
+      areas:
+        Left Leg:
+        - Thorax
+        - Right Leg
+        - Right Leg
+        - Right Leg
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Left Leg
+        - Left Leg
+        - Left Leg
+        Right Leg:
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Left Leg
+        - Left Leg
+        - Left Leg
+        - Right Leg
+        - Right Leg
+        - Right Leg
+        Rear Left Leg:
+        - Thorax
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        Rear Right Leg:
+        - Thorax
+        - Rear Left Leg
+        - Rear Left Leg
+        - Rear Left Leg
+        - Abdomen
+        - Abdomen
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        - Rear Right Leg
+        Front Left Leg:
+        - Head
+        - Thorax
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        - Front Left Leg
+        Front Right Leg:
+        - Head
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Abdomen
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        - Front Right Leg
+        Right Wing:
+        - Head
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Front Right Leg
+        - Front Right Leg
+        - Right Wing
+        - Right Wing
+        - Right Wing
+        Left Wing:
+        - Head
+        - Thorax
+        - Thorax
+        - Abdomen
+        - Abdomen
+        - Front Left Leg
+        - Front Left Leg
+        - Left Wing
+        - Left Wing
+        - Left Wing
+        Head:
+        - Front Right Leg
+        - Front Right Leg
+        - Front Left Leg
+        - Front Left Leg
+        - Thorax
+        - Thorax
+        - Thorax
+        - Head
+        - Head
+        - Head
+        Abdomen:
+        - Rear Left Leg
+        - Rear Right Leg
+        - Rear Left Leg
+        - Rear Right Leg
+        - Chest
+        - Chest
+        - Chest
+        - Abdomen
+        - Abdomen
+        - Abdomen
+      vital_areas:
+      - Abdomen
+      critical_areas:
+      - Thorax
+    Bird:
+      areas:
+        Left Leg:
+          - Head
+          - Chest
+          - Chest
+          - Left Wing
+          - Left Wing
+          - Left Wing
+          - Abdomen
+          - Left Leg
+          - Left Leg
+          - Left Leg
+        Left Wing:
+          - Head
+          - Chest
+          - Chest
+          - Left Wing
+          - Left Wing
+          - Left Wing
+          - Abdomen
+          - Left Leg
+          - Left Leg
+          - Left Leg
+        Right Leg:
+          - Head
+          - Chest
+          - Chest
+          - Right Wing
+          - Right Wing
+          - Right Wing
+          - Abdomen
+          - Right Leg
+          - Right Leg
+          - Right Leg
+        Right Wing:
+          - Head
+          - Chest
+          - Chest
+          - Right Wing
+          - Right Wing
+          - Right Wing
+          - Abdomen
+          - Right Leg
+          - Right Leg
+          - Right Leg
+        Head:
+          - Head
+          - Head
+          - Chest
+          - Chest
+          - Neck
+          - Neck
+          - Right Wing
+          - Right Wing
+          - Left Wing
+          - Left Wing
+        Neck:
+          - Head
+          - Head
+          - Chest
+          - Chest
+          - Neck
+          - Neck
+          - Right Wing
+          - Right Wing
+          - Left Wing
+          - Left Wing
+        Chest:
+          - Chest
+          - Chest
+          - Chest
+          - Neck
+          - Abdomen
+          - Abdomen
+          - Right Wing
+          - Left Wing
+          - Right Leg
+          - Left Leg
+        Abdomen:
+          - Chest
+          - Tail
+          - Abdomen
+          - Neck
+          - Abdomen
+          - Abdomen
+          - Right Wing
+          - Left Wing
+          - Right Leg
+          - Left Leg
+        Tail:
+          - Tail
+          - Right Wing
+          - Right Leg
+          - Left Wing
+          - Left Leg
+          - Tail
+          - Abdomen
+          - Abdomen
+          - Tail
+          - Tail
+      vital_areas:
+        - Abdomen
+        - Head
+      critical_areas:
+        - Chest
+        - Abdomen
+        - Head
+    Fish:
+      areas:
+        Head:
+          - Head
+          - Head
+          - Ventral Fin
+          - Ventral Fin
+          - Operculum
+          - Operculum
+          - Body
+          - Body
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+        Tail Fin:
+          - Body
+          - Body
+          - Tail
+          - Tail
+          - Tail
+          - Tail
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+        Operculum:
+          - Head
+          - Head
+          - Body
+          - Body
+          - Body
+          - Body
+          - Operculum
+          - Operculum
+          - Tail
+          - Dorsal Fin
+        Right Pectoral Fin:
+          - Body
+          - Body
+          - Body
+          - Body
+          - Body
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Operculum
+          - Operculum
+        Left Pectoral Fin:
+          - Body
+          - Body
+          - Body
+          - Body
+          - Body
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Operculum
+          - Operculum
+        Dorsal Fin:
+          - Body
+          - Body
+          - Body
+          - Operculum
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Dorsal Fin
+          - Dorsal Fin
+          - Tail
+          - Head
+        Body:
+          - Body
+          - Body
+          - Body
+          - Operculum
+          - Operculum
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Head
+          - Tail
+          - Tail Fin
+        Tail:
+          - Body
+          - Body
+          - Tail
+          - Tail
+          - Tail
+          - Tail
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+        Ventral Fin:
+          - Ventral Fin
+          - Ventral Fin
+          - Ventral Fin
+          - Body
+          - Body
+          - Body
+          - Body
+          - Head
+          - Head
+          - Operculum
+      vital_areas:
+        - Head
+        - Operculum
+      critical_areas:
+        - Head
+        - Body
+        - Operculum
+    Mammal Fish:
+      # Whales and the Like
+      areas:
+        Head:
+          - Head
+          - Head
+          - Head
+          - Blow Hole
+          - Blow Hole
+          - Body
+          - Body
+          - Body
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+        Tail Fin:
+          - Body
+          - Body
+          - Tail
+          - Tail
+          - Tail
+          - Tail
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+        Blow Hole:
+          - Head
+          - Head
+          - Body
+          - Body
+          - Body
+          - Body
+          - Blow Hole
+          - Blow Hole
+          - Tail
+          - Dorsal Fin
+        Right Pectoral Fin:
+          - Body
+          - Body
+          - Body
+          - Body
+          - Body
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Right Pectoral Fin
+          - Blow Hole
+          - Blow Hole
+        Left Pectoral Fin:
+          - Body
+          - Body
+          - Body
+          - Body
+          - Body
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Left Pectoral Fin
+          - Blow Hole
+          - Blow Hole
+        Dorsal Fin:
+          - Body
+          - Body
+          - Body
+          - Blow Hole
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Dorsal Fin
+          - Dorsal Fin
+          - Tail
+          - Head
+        Body:
+          - Body
+          - Body
+          - Body
+          - Blow Hole
+          - Blow Hole
+          - Right Pectoral Fin
+          - Left Pectoral Fin
+          - Head
+          - Tail
+          - Tail Fin
+        Tail:
+          - Body
+          - Body
+          - Tail
+          - Tail
+          - Tail
+          - Tail
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+          - Tail Fin
+      vital_areas:
+        - Head
+        - Blow Hole
+      critical_areas:
+        - Head
+        - Body
+        - Blow Hole
