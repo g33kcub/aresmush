@@ -21,7 +21,42 @@ fs3skills:
       skills:
         Faith: 0
         Hoodoo: 0
+    Role:
+      Priest:
+        skills:
+          Faith: 2
+          Composure: 2
+      Witch:
+        skills:
+          Hoodoo: 2
+          Composure: 2
+      Sailor:
+        skills:
+          Sailing: 2
+          Athletics: 2
+      Swashbuckler:
+        skills:
+          Blades: 2
+          Sailing: 2
+          Athletics: 2
+      Shaman:
+        skills:
+          Hoodoo: 1
+          Faith: 1
+          Composure: 2
+      Trader:
+        skills:
+          Persuasion: 2
+          Book Keeping: 2
+          Composure: 2
     Kind:
+      Water Folk:
+        skills:
+          Water Breathing: 3
+          Swimming: 3
+          Reflexes: 3
+          Athletics: 3
+          Sailing: 2
       Elfin:
         skills:
           Quenya: 3

@@ -33,6 +33,16 @@ demographics:
   - played by
   - birthdate
   groups:
+    Role:
+      desc: Your character's role in the world.
+      wiki: ''
+      values:
+        Priest: You are one of those who are devout in faith.
+        Witch: You practice the ancient arts of Hoodoo.
+        Sailor: You are adept at sailing the seas.
+        Swashbuckler: You are as adept with a sword as you are a ship.
+        Shaman: You blend faith and hoodoo with skilled practice.
+        Trader: You have skill with negotiation and all the fun stuff of money.
     Kind:
       desc: Your character's species.
       wiki: ''
