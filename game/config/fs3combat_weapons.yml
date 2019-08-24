@@ -122,6 +122,77 @@ fs3combat:
         - Lightning
         - Hellfire
         - Wind
+    # Bludgeoning Weapons
+    Boarding Axe:
+      description: "An axe made to climb up the side of a ship and fight onboard."
+      skill: Bludgeons
+      lethality: 10
+      penetration: 6
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: physical
+      accuracy: -1
+      init_mod: -3
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+    Club:
+      description: "A belaying pin, club or a mace."
+      skill: Bludgeons
+      lethality: -5
+      penetration: 5
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      init_mod: 0
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+        - Spiked
+    Hatchet:
+      description: "A small axe used more as a tool, than weapon."
+      skill: Bludgeons
+      lethality: 0
+      penetration: 4
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: physical
+      init_mod: 1
+      accuracy: 0
+      allowed_specials:
+        - Sparring
+    Great Hammer:
+      description: "Not a tool, but a glorified smacker."
+      lethality: 35
+      skill: Bludgeons
+      accuracy: 0
+      init_mod: -3
+      recoil: 0
+      damage_type: Physical
+      penetration: 7
+      is_automatic: false
+      has_shrapnel: false
+      allowed_specials:
+        - Sparring
+        - Spiked
+    # Firearms Weapons
+    Brace of Pistols:
+      description: "A pair of flintlock pistols."
+      skill: Firearms
+      lethality: 0
+      penetration: 6
+      weapon_type: Ranged
+      is_automatic: false
+      ammo: 2
+      recoil: 0
+      damage_type: Physical
+      init_mod: 1
+      accuracy: 0
+      has_shrapnel: false
   weapon specials:
     # Faith Weapon Specials
     Greater Smite:
