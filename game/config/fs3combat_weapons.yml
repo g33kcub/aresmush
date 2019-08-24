@@ -381,7 +381,7 @@ fs3combat:
       has_shrapnel: false
     Whip:
       description: "A leather whip."
-      skills: Whips
+      skill: Whips
       lethality: 0
       penetration: 4
       weapon_type: Melee
