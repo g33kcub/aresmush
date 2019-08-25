@@ -158,6 +158,10 @@ module AresMUSH
         Global.read_config("game","name")
       end
 
+      def tagline
+        Global.read_config("game","tagline")
+      end
+
     end
   end
 end

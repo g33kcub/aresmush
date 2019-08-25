@@ -8,3 +8,4 @@ game: !ruby/hash:Sinatra::IndifferentHash
   public_game: true
   game_status: In Development
   status: In Development
+  tagline: "Season One: The Coming Storm"

@@ -214,4 +214,4 @@ en:
         virtue_the_witch: "Intuitive"
         hubris_the_witch: "Manipulation"
 
-        game_name: "%{game}"
+        game_name: "%{game}: %{tag}"
