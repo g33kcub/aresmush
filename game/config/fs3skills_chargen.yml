@@ -26,6 +26,189 @@ fs3skills:
       Beast-Kin:
         skills:
           Sylvan: 3
+      Elfin:
+        skills:
+          Quenya: 3
+          Blades: 2
+      Stoutling:
+        skills:
+          Khuzdul: 3
+          Bludgeons: 2
+      Water Folk:
+        skills:
+          Swimming: 3
+    Colony:
+      Black Isle:
+        skills:
+          Volkash: 3
+      Broken Isle:
+        skills:
+          Ettin: 3
+      Emerald Isle:
+        skills:
+          Esmeth: 3
+      Floating People:
+        skills:
+          Seaspeak: 3
+          Sailing: 2
+      Silver Isle:
+        skills:
+          Silvish: 3
+      Tradesport:
+        skills:
+          Haggling: 2
+      Wild Folk:
+        skills:
+          Wildspeak: 3
+          Athletics: 2
+    Background:
+      Archaelogist:
+        skills:
+          Wits: 3
+          Athletics: 2
+          Alertness: 2
+          History: 2
+      Aristocrat:
+        skills:
+          Presence: 3
+          Athletics: 2
+          Socializing: 2
+          Diplomacy: 1
+          Etiquette: 1
+      Assassin:
+        skills:
+          Reflexes: 3
+          Blades: 2
+          Brawling: 2
+          Stealth: 2
+      Bard:
+        skills:
+          Presence: 3
+          Performance: 2
+          Songcraft: 2
+          Instruments: 2
+      Diplomat:
+        skills:
+          Presence: 3
+          Persuasion: 2
+          Intimidate: 2
+          Deception: 2
+      Duelist:
+        skills:
+          Reflexes: 3
+          Blades: 4
+          Athletics: 2
+      Enchanter:
+        skills:
+          Wits: 3
+          Artificer: 1
+          Spirit: 2
+      Explorer:
+        skills:
+          Grit: 3
+          Athletics: 2
+          Composure: 2
+          Sailing: 2
+      Healer:
+        skills:
+          Wits: 3
+          Healing: 3
+          Composure: 2
+          Botany: 1
+        specialties:
+          Healing:
+            - Traditional
+      Mercenary:
+        skills:
+          Reflexes: 3
+          Athletics: 2
+          Blades: 2
+          Firearms: 2
+      Merchant:
+        skills:
+          Wits: 3
+          Haggling: 3
+          Connections: 1
+          Appraisal: 1
+          Book Keeping: 1
+      Monster Hunter:
+        skills:
+          Reflexes: 3
+          Athletics: 2
+          Blades: 2
+          Monster Lore: 2
+      Pirate:
+        skills:
+          Presence: 3
+          Sailing: 3
+          Athletics: 2
+          Cartography: 1
+      Priest:
+        skills:
+          Spirit: 2
+          Faith: 3
+          Performance: 2
+          Empathy: 1
+      Privateer:
+        skills:
+          Presence: 3
+          Sailing: 3
+          Athletics: 2
+          Cartography: 1
+      Provocateur:
+        skills:
+          Presence: 3
+          Persuasion: 2
+          Composure: 2
+          Socializing: 2
+      Puglist:
+        skills:
+          Brawn: 3
+          Brawling: 3
+          Athletics: 3
+      Quartermaster:
+        skills:
+          Wits: 3
+          Haggling: 2
+          Sailing: 2
+          Connections: 2
+      Sailor:
+        skills:
+          Wits: 3
+          Sailing: 3
+          Gunnery: 1
+          Cartography: 1
+          Crewmanship: 1
+      Ship Captain:
+        skills:
+          Wits: 3
+          Sailing: 3
+          Persuasion: 3
+      Swashbuckler:
+        skills:
+          Reflexes: 3
+          Sailing: 2
+          Blades: 2
+          Athletics: 2
+      Whaler:
+        skills:
+          Reflexes: 3
+          Blades: 2
+          Sailing: 2
+          Tracking: 2
+      Witch Doctor:
+        skills:
+          Spirit: 2
+          Hoodoo: 2
+          Composure: 2
+          Occult Traditions: 1
+          Faith: 1
+      Mystic:
+        skills:
+          Spirit: 2
+          Hoodoo: 3
+          Composure: 2
+          Occult Traditions: 1
   unusual_skills:
   - Wildspeak
   - Silvish
