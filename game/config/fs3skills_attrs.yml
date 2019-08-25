@@ -20,3 +20,5 @@ fs3skills:
     desc: Charisma and beauty.
   - name: Spirit
     desc: Innate Mystical Power.
+  - name: Ego
+    desc: The strength of mental fortitude.

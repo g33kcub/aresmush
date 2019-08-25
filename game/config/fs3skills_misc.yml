@@ -1,6 +1,6 @@
 ---
 fs3skills:
-  max_luck: 6
+  max_luck: 50
   luck_for_scene:
     0: 0.1
     10: 0.075
@@ -16,6 +16,7 @@ fs3skills:
     languages: abilities4
     bgskill: abilities3
     advantages: abilities5
+    sorcery: abilities6
     practice: learn
     train: learn
     xp/raise: learn

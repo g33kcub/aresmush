@@ -47,6 +47,12 @@ fs3skills:
   - name: Persuasion
     desc: "The ability to convince an NPC to do what you want."
     linked_attr: Presence
+  - name: Intimidate
+    desc: "The ability to intimidate an NPC."
+    linked_attr: Presence
+  - name: Performance
+    desc: "The ability to perform in public."
+    linked_attr: Presence
   - name: Sailing
     desc: "Seamanship, knot tying, navigation and all other things to do with sailing."
     linked_attr: Wits

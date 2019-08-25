@@ -1,0 +1,14 @@
+---
+  fs3skills:
+    sorcery_blurb: 'These represent the basic abilities to manipulate mystic energy. These abilities are not tied to your Faith or Hoodoo, but are different styles of lesser known magical paths.'
+    sorcery:
+      - name: Crone's Touch
+        desc: "You have been touched by one of the crones of fate."
+      - name: Hexen
+        desc: "You can craft the dark baubles of magic."
+      - name: Brewmaster
+        desc: "You can craft potions and draughts."
+      - name: Sanderis
+        desc: "You have made a bargain with an otherworldly force."
+      - name: Portalis
+        desc: "You have learned the traits of blood portals."

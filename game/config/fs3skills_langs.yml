@@ -30,3 +30,5 @@ fs3skills:
     desc: The most common language of the Beast-Kin.
   - name: Oldspeak
     desc: The oldest known spoken language.
+  - name: Wildspeak
+    desc: The most common language of the Wild Folk.

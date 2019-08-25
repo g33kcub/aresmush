@@ -86,7 +86,7 @@ demographics:
         Provocateur: "You know that sex is a weapon, and you're a weapon master."
         Enchanter: "You have studied the arts of creating the magical items of legend."
         Archaelogist: "You study the ruins of the world before the great flood."
-        Aristocrast: "You were born into the ruling class of your colony."
+        Aristocrat: "You were born into the ruling class of your colony."
         Assassin: "You are a stalker in the shadows, killing for your own gains."
         Diplomat: "You are part of the diplomatic branch of the ruling body of your colony."
         Explorer: "You live to see the farthest reaches of the seas."
@@ -135,7 +135,7 @@ demographics:
     groups: group
     colonies: group colony
     kinds: group kind
-    archetypes: group archetype
+    backgrounds: group background
     arcanas: group arcana
     demographics: demographic
     birthday: birthdate

@@ -1,12 +1,8 @@
 ---
 fs3skills:
   advantages:
-  - name: Ship Rank
-    desc: Quarter Master, First Mate or Captain respectively. (Only take w/ Staff Permission.)
   - name: Booty
     desc: Wealth and other tangible possessions.
-  - name: Literacy
-    desc: How well you read or write.
   - name: Legend
     desc: How famous or infamous your name is.
   - name: Connections
