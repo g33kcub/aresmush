@@ -42,6 +42,6 @@ module AresMUSH
     def self.get_web_request_handler(request)
       nil
     end
-
+  end
   end
 end
