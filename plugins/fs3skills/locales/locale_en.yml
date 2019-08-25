@@ -128,6 +128,7 @@ en:
         specialty_required: "Specialty Required:"
         advantages_title: "Advantages"
         sorcery_title: "Sorcery"
+        other_title: "Miscellaneous"
 
         luck_display: "%{curlck}/%{maxlck}"
         xp_display: "%{curxp}/%{maxxp}"
