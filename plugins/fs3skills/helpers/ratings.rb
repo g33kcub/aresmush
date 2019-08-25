@@ -15,11 +15,13 @@ module AresMUSH
         char.fs3_advantages.find(name: ability_name).first
       when :language
         char.fs3_languages.find(name: ability_name).first
+      when :sorcery
+        char.fs3_sorcery.find(name: ability_name).first
       else
         nil
       end
     end
-    
+
     def self.get_linked_attr(ability_name)
       case FS3Skills.get_ability_type(ability_name)
       when :action
@@ -31,11 +33,11 @@ module AresMUSH
         return Global.read_config("fs3skills", "default_linked_attr")
       end
     end
-    
+
     def self.skills_census(skill_type)
       skills = {}
       Chargen.approved_chars.each do |c|
-        
+
         if (skill_type == "Action")
           c.fs3_action_skills.each do |a|
             add_to_hash(skills, c, a)
@@ -50,6 +52,12 @@ module AresMUSH
           c.fs3_languages.each do |a|
             add_to_hash(skills, c, a)
           end
+
+        elsif (skill_type == "Sorcery")
+          c.fs3_sorcery.each do |a|
+            add_to_hash(skills,c,a)
+          end
+
         else
           raise "Invalid skill type selected for skill census: #{skill_type}"
         end
