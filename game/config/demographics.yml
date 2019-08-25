@@ -104,8 +104,9 @@ demographics:
         Privateer: "You have been given a charter to sink any ship that is an enemy to your colony."
         Monster Hunter: "You know that there are unnatural creatures stalking your world, and you've sworn to destroy them."
         Whaler: "You sail the seas with spears and boats tracking the most dangerous of sea life."
-        Witch Doctor: "You wield the power of Hoodoo and the mystic realm."
+        Witch Doctor: "You wield the power of Hoodoo, Faith, and the mystic realm."
         Swashbuckler: "You exude swagger. You use a blade and tongue with equal measure."
+        Mystic: "You manipulate Hoodoo like a professional."
   help_text:
     playedby: "%xcplayedby <actor>%xn - The actor/actress depicting your character."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
