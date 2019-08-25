@@ -141,6 +141,16 @@ module AresMUSH
         t('fs3skills.quirk_#{a}')
       end
 
+      def dateofbirth
+        dob = @char.demographic("birthdate")
+        !dob ? "Unknown" : ICTime.ic_datestr(dob)
+      end
+
+      def age
+        age = @char.age
+        age == 0 ? "--" : age
+      end
+      
     end
   end
 end
