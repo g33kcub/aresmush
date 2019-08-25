@@ -2,7 +2,7 @@
   fs3skills:
     sorcery_blurb: 'These represent the basic abilities to manipulate mystic energy. These abilities are not tied to your Faith or Hoodoo, but are different styles of lesser known magical paths.'
     sorcery:
-      - name: Touch of the Crone
+      - name: Crones Touch
         desc: "You have been touched by one of the crones of fate."
       - name: Hexen
         desc: "You can craft the dark baubles of magic."
