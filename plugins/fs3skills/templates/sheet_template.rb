@@ -106,6 +106,41 @@ module AresMUSH
       def section_line(title)
         @client.screen_reader ? title : line_with_text(title)
       end
+
+      def kind
+        @char.demographic("kind") || "Unknown"
+      end
+
+      def colony
+        @char.demographic("colony") || "Unknown"
+      end
+
+      def background
+        @char.demographic("background") || "Unknown"
+      end
+
+      def arcana
+        @char.demographic("arcana") || "Unknown"
+      end
+
+      def virtue
+        ar = @char.demographic("arcana") || "Unknown"
+        a = "#{ar}".downcase.tr(" ","_")
+        t('fs3skills.virtue_#{a}')
+      end
+
+      def hubris
+        ar = @char.demographic("arcana") || "Unknown"
+        a = "#{ar}".downcase.tr(" ","_")
+        t('fs3skills.hubris_#{a}')
+      end
+
+      def quirk
+        ar = @char.demographic("arcana") || "Unknown"
+        a = "#{ar}".downcase.tr(" ","_")
+        t('fs3skills.quirk_#{a}')
+      end
+
     end
   end
 end
