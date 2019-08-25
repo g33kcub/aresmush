@@ -129,6 +129,8 @@ en:
         advantages_title: "Advantages"
         sorcery_title: "Sorcery"
 
+        luck_display: "%{curlck}/%{maxlck}"
+        xp_display: "%{curxp}/%{maxxp}"
         # ------------------------------------------------------
         # XP
         # ------------------------------------------------------
