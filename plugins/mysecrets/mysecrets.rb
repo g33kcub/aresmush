@@ -1,7 +1,7 @@
 $:.unshift File.dirname(__FILE__)
 
 module AresMUSH
-     module Mysecrets
+     module MySecrets
 
     def self.plugin_dir
       File.dirname(__FILE__)
@@ -12,7 +12,27 @@ module AresMUSH
     end
 
     def self.get_cmd_handler(client, cmd, enactor)
-      nil
+      case cmd.root
+      when "secrets"
+        case cmd.switch
+        when "set"
+          return SetSecretsCmd
+        when "preference"
+          return SetSecretPrefCmd
+        when "setplot"
+          return SetSecretsPlotCmd
+        when nil
+          return SecretsCmd
+        end
+      end
+      case cmd.root
+      when "gmsecrets"
+        case cmd.switch
+        when "set"
+          return SetGMSecretsCmd
+        else
+          return GMSecretsCmd
+        end
     end
 
     def self.get_event_handler(event_name)
