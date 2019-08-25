@@ -126,21 +126,21 @@ module AresMUSH
       def virtue
         ar = @char.demographic("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
-        dis = fs3skills.virtue_"#{a}"
+        dis = "fs3skills.virtue_#{a}"
         t(dis)
       end
 
       def hubris
         ar = @char.demographic("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
-        dis = fs3skills.hubris_"#{a}"
+        dis = "fs3skills.hubris_#{a}"
         t(dis)
       end
 
       def quirk
         ar = @char.demographic("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
-        dis = fs3skills.quirk_"#{a}"
+        dis = "fs3skills.quirk_#{a}"
         t(dis)
       end
 
