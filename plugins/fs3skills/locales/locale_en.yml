@@ -167,7 +167,8 @@ en:
         kind_title: "Kind:"
         colony_title: "Colony:"
         birthdate_title: "Birthdate:"
-        character_status: "Status:"
+        display_age: "%{dob} (%{age})"
+        character_status: "App Status:"
         quirk_title: "Quirk:"
 
         virtue_the_beggar: "Insightful"
