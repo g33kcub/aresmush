@@ -1,26 +1,21 @@
 ---
 demographics:
-  min_age: 18
-  max_age: 65
-  required_properties:
-  - played by
-  - hair
-  - eyes
-  - skin
-  - height
-  - physique
-  - full name
-  - gender
-  - birthdate
-  nickname_field: nickname
-  nickname_format: "%{name} (%{nickname})"
-  disable_auto_shortcuts: false
-  editable_properties:
-  - full name
-  - nickname
-  - gender
-  - hair
-  - physique
+  census_fields:
+  - field: name
+    width: 28
+    title: Name
+  - field: demographic
+    width: 10
+    title: Gender
+    value: gender
+  - field: group
+    width: 20
+    title: Kind
+    value: Kind
+  - field: group
+    width: 20
+    title: Colony
+    value: Colony
   demographics:
   - full name
   - nickname
@@ -32,6 +27,13 @@ demographics:
   - physique
   - played by
   - birthdate
+  disable_auto_shortcuts: false
+  editable_properties:
+  - full name
+  - nickname
+  - gender
+  - hair
+  - physique
   groups:
     Archetype:
       desc: Your character's archetype in the world.
@@ -56,24 +58,18 @@ demographics:
       desc: Your character's birth colony.
       wiki: ''
       values:
-        Silver Isle: "You hail from the Silver Islands."
-        Emerald Isle: "You hail from the Emerald Islands."
-        Black Isle: "You hail from the Black Islands."
-        Broken Isle: "You hail from the Broken Islands."
-        Tradesport: "You hail from Tradesport."
-        Floating People: "You hail from the Floating People."
-        Wild Folk: "You hail from the uncivilized islands."
-  shortcuts:
-    groups: group
-    colonies: group colony
-    kinds: group kind
-    archetypes: group archetype
-    demographics: demographic
-    birthday: birthdate
-    actors: census played by
-    actor: demographic/set played by=
-    fullname: demographic/set full name=
-    playedby: demographic/set played by=
+        Silver Isle: You hail from the Silver Islands.
+        Emerald Isle: You hail from the Emerald Islands.
+        Black Isle: You hail from the Black Islands.
+        Broken Isle: You hail from the Broken Islands.
+        Tradesport: You hail from Tradesport.
+        Floating People: You hail from the Floating People.
+        Wild Folk: You hail from the uncivilized islands.
+    Arcana:
+      desc: Your expression of Fate.
+      wiki: ''
+      values:
+        The Fool: ''
   help_text:
     playedby: "%xcplayedby <actor>%xn - The actor/actress depicting your character."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
@@ -84,20 +80,30 @@ demographics:
     birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
     nickname: "%xcnickname <nickname>%xn - Optionally enter a nickname."
     fullname: "%xcfullname <name>%xn - Your character's full name."
-  census_fields:
-  - field: name
-    width: 28
-    title: Name
-  - field: demographic
-    width: 10
-    title: Gender
-    value: gender
-  - field: group
-    width: 20
-    title: Kind
-    value: Kind
-  - field: group
-    width: 20
-    title: Colony
-    value: Colony
+  max_age: 65
+  min_age: 18
+  nickname_field: nickname
+  nickname_format: "%{name} (%{nickname})"
   private_properties: []
+  required_properties:
+  - played by
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - full name
+  - gender
+  - birthdate
+  shortcuts:
+    groups: group
+    colonies: group colony
+    kinds: group kind
+    archetypes: group archetype
+    arcanas: group arcana
+    demographics: demographic
+    birthday: birthdate
+    actors: census played by
+    actor: demographic/set played by=
+    fullname: demographic/set full name=
+    playedby: demographic/set played by=
