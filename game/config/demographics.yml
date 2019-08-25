@@ -5,7 +5,7 @@ demographics:
     width: 28
     title: Name
   - field: demographic
-    width: 10
+    width: 8
     title: Gender
     value: gender
   - field: group
@@ -35,16 +35,6 @@ demographics:
   - hair
   - physique
   groups:
-    Archetype:
-      desc: Your character's archetype in the world.
-      wiki: ''
-      values:
-        Priest: You are one of those who are devout in faith.
-        Witch: You practice the ancient arts of Hoodoo.
-        Sailor: You are adept at sailing the seas.
-        Swashbuckler: You are as adept with a sword as you are a ship.
-        Shaman: You blend faith and hoodoo with skilled practice.
-        Trader: You have skill with negotiation and all the fun stuff of money.
     Kind:
       desc: Your character's species.
       wiki: ''
@@ -69,7 +59,53 @@ demographics:
       desc: Your expression of Fate.
       wiki: ''
       values:
-        The Fool: ''
+        The Fool: 'Virtue: Wily / Hubris: Curious'
+        The Road: 'Virtue: Friendly / Hubris: Underconfident'
+        The Magician: 'Virtue: Willful / Hubris: Ambitious'
+        The Lovers: 'Virtue: Passionate / Hubris: Star-Crossed'
+        The Wheel: 'Virtue: Fortunate / Hubris: Unfortunate'
+        The Devil: 'Virtue: Astute / Hubris: Trusting'
+        The Tower: 'Virtue: Humble / Hubris: Arrogant'
+        The Beggar: 'Virtue: Insightful / Hubris: Envious'
+        The Witch: 'Virtue: intuitive / Hubris: Manipulation'
+        The War: 'Virtue: Victorious / Hubris: Loyal'
+        The Hanged Man: 'Virtue: Altruistic / Hubris: Indecisive'
+        The Coins: 'Virtue: Adaptable / Hubris: Relentless'
+        The Thrones: 'Virtue: Comforting / Hubris: Stubborn'
+        The Moonless Night: 'Virtue: Subtle / Hubris: Confusion'
+        The Sun: 'Virtue: Glorious / Hubris: Proud'
+        The Prophet: 'Virtue: Illuminating / Hubris: Overzealous'
+        The Reunion: 'Virtue: Exemplary / Hubris: Bitterness'
+        The Hero: 'Virtue: Courageous / Hubris: Foolhardy'
+        The Glyph: 'Virtue: Temperate / Hubris: Superstitious'
+        The Emperor: 'Virtue: Commanding / Hubris: Hot-Headed'
+    Background:
+      desc: "Where do you draw your experiences from?"
+      wiki: ''
+      values:
+        Provocateur: "You know that sex is a weapon, and you're a weapon master."
+        Enchanter: "You have studied the arts of creating the magical items of legend."
+        Archaelogist: "You study the ruins of the world before the great flood."
+        Aristocrast: "You were born into the ruling class of your colony."
+        Assassin: "You are a stalker in the shadows, killing for your own gains."
+        Diplomat: "You are part of the diplomatic branch of the ruling body of your colony."
+        Explorer: "You live to see the farthest reaches of the seas."
+        Healer: "You work to heal the sick and injured of the world."
+        Duelist: "You have devoted your life to the mastering of the sword."
+        Mercenary: "You are a sell-sword."
+        Merchant: "You travel the world selling your wares."
+        Pirate: "You sail the seas, taking what you need, providing true freedom to all who accept the call."
+        Priest: "You serve a higher cause with every living breath you take."
+        Puglist: "You rely on your bare hands and feet to solve the violet problems in your life."
+        Quartermaster: "You serve aboard a ship taking care of all the things the other sailors ignore."
+        Ship Captain: "You command a crew and sail the seas for whatever banner you fly."
+        Sailor: "You serve no country or master, but the ship and your crew are all the family you need."
+        Bard: "You tell the old tales, the stories of legends and ensure the lessons are not forgotten."
+        Privateer: "You have been given a charter to sink any ship that is an enemy to your colony."
+        Monster Hunter: "You know that there are unnatural creatures stalking your world, and you've sworn to destroy them."
+        Whaler: "You sail the seas with spears and boats tracking the most dangerous of sea life."
+        Witch Doctor: "You wield the power of Hoodoo and the mystic realm."
+        Swashbuckler: "You exude swagger. You use a blade and tongue with equal measure."
   help_text:
     playedby: "%xcplayedby <actor>%xn - The actor/actress depicting your character."
     physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
