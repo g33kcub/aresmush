@@ -1,7 +1,7 @@
 $:.unshift File.dirname(__FILE__)
 
 module AresMUSH
-     module Luckgive
+     module LuckGive
 
     def self.plugin_dir
       File.dirname(__FILE__)
@@ -12,7 +12,15 @@ module AresMUSH
     end
 
     def self.get_cmd_handler(client, cmd, enactor)
-      nil
+      case cmd.root
+      when "luck"
+        case cmd.switch
+        when "give"
+          return LuckGiveCmd
+        when "record"
+          return LuckRecordCmd
+        end
+      end
     end
 
     def self.get_event_handler(event_name)
