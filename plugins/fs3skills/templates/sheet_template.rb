@@ -108,37 +108,37 @@ module AresMUSH
       end
 
       def kind
-        @char.demographic("kind") || "Unknown"
+        @char.group("kind") || "Unknown"
       end
 
       def colony
-        @char.demographic("colony") || "Unknown"
+        @char.group("colony") || "Unknown"
       end
 
       def background
-        @char.demographic("background") || "Unknown"
+        @char.group("background") || "Unknown"
       end
 
       def arcana
-        @char.demographic("arcana") 
+        @char.group("arcana")
       end
 
       def virtue
-        ar = @char.demographic("arcana") || "Unknown"
+        ar = @char.group("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
         dis = "fs3skills.virtue_#{a}"
         t(dis)
       end
 
       def hubris
-        ar = @char.demographic("arcana") || "Unknown"
+        ar = @char.group("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
         dis = "fs3skills.hubris_#{a}"
         t(dis)
       end
 
       def quirk
-        ar = @char.demographic("arcana") || "Unknown"
+        ar = @char.group("arcana") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
         dis = "fs3skills.quirk_#{a}"
         t(dis)
