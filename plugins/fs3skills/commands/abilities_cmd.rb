@@ -6,7 +6,7 @@ module AresMUSH
 
       def handle
 
-        num_pages = FS3Skills.use_advantages? ? 5 : 4
+        num_pages = FS3Skills.use_advantages? ? 6 : 5
 
         case cmd.page
         when 1
@@ -31,7 +31,7 @@ module AresMUSH
            end
         when 6
           template = AbilityPageTemplate.new("/sorcery.erb",
-              { sorcery: FS3Skills.sorcery.sort_by { |a| a['name'] }, num_pages: num_pages, page: cmd.page })  
+              { sorcery: FS3Skills.sorcery.sort_by { |a| a['name'] }, num_pages: num_pages, page: cmd.page })
         else
           client.emit_failure t('pages.not_that_many_pages')
           return
