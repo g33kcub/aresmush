@@ -138,7 +138,7 @@ module AresMUSH
       end
 
       def quirk
-        ar = @char.group("arcana") || "Unknown"
+        ar = @char.group("background") || "Unknown"
         a = "#{ar}".downcase.tr(" ","_")
         dis = "fs3skills.quirk_#{a}"
         t(dis)
