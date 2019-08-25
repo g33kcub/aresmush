@@ -159,6 +159,7 @@ en:
         #-----------------------------------------------------------------------
         # Sheet Info Sections
         #-----------------------------------------------------------------------
+        fullname_title: "Name:"
         background_info_title: "Background:"
         arcana_title: "Arcana:"
         virtue_title: "Virtue:"
