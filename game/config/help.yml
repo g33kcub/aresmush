@@ -1,6 +1,7 @@
 ---
 help:
   shortcuts:
+    news: help
     shelp: help
     ahelp: help
     bhelp: help
