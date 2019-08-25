@@ -120,7 +120,7 @@ module AresMUSH
       end
 
       def arcana
-        @char.demographic("arcana") || "Unknown"
+        @char.demographic("arcana") 
       end
 
       def virtue
