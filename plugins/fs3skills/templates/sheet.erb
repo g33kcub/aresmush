@@ -1,49 +1,34 @@
 <%= section_line t('fs3skills.game_name', :game => game_name, :tag => tagline) %>
 %xh<%= left( t('fs3skills.fullname_title'), 16) %>%xn <%= left( char.name, 19 ) %> %xh<%= left(t('fs3skills.kind_title'),16) %>%xn <%= kind -%>
-
 %xh<%= left( t('fs3skills.background_info_title'), 16) %>%xn <%= left( background, 19 ) %> %xh<%= left(t('fs3skills.colony_title'),16) %>%xn <%= colony -%>
-
 %xh<%= left( t('fs3skills.virtue_title'), 16) %>%xn <%= left( virtue, 19 ) %> %xh<%= left(t('fs3skills.hubris_title'),16) %>%xn <%= hubris -%>
-
 %xh<%= left( t('fs3skills.birthdate_title'), 16) %>%xn <%= left( t('fs3skills.display_age', :dob => dateofbirth, :age => age), 19 ) %> %xh<%= left(t('fs3skills.arcana_title'),16) %>%xn <%= arcana -%>
-
 %xh<%= left( t('fs3skills.character_status'), 16) %>%xn <%= left( approval_status, 19 ) %>
 <%= section_line t('fs3skills.attributes_title') -%>
 <% attrs.each do |a| -%>
 <%= a -%>
 <% end %>
-
-
 <%= section_line t('fs3skills.action_skills_title') -%>
 <% action_skills.each do |a| -%>
 <%= a -%>
 <% end %>
-
 <% if specialties %>
-
 %xh<%= t('fs3skills.specialties_title') %>%xn <%= specialties %>
 <% end %>
-
 <%= section_line t('fs3skills.background_skills_title') -%>
 <% background_skills.each do |b| -%>
 <%= b -%>
 <% end %>
-
-
 <%= section_line t('fs3skills.languages_title') -%>
 <% languages.each do |l| -%>
 <%= l -%>
 <% end %>
-
 <% if use_advantages %>
-
 <%= section_line t('fs3skills.advantages_title') -%>
 <% advantages.each do |a| -%>
 <%= a -%>
 <% end %>
-
 <% end %>
-
 <%= section_line t('fs3skills.sorcery_title') -%>
 <% sorcery.each do |a| -%>
 <%= a -%>
