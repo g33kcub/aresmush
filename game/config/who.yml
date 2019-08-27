@@ -1,6 +1,6 @@
 ---
 who:
-  where_style: scene
+  where_style: room
   who_fields:
   - field: status
     width: 7
