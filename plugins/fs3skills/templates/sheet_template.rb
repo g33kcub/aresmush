@@ -94,13 +94,13 @@ module AresMUSH
         name = "%xh#{s.name}:%xn"
         linked_attr = show_linked_attr ? print_linked_attr(s) : ""
         linebreak = i % 2 == 1 ? "" : "%r"
-        rating_text = "#{s.rating_name}#{linked_attr}"
+        rating_text = "#{linked_attr} #{s.rating_name}"
         "#{linebreak}#{left(name, 14)} #{left(s.print_rating, 8)} #{left(rating_text, 16)}"
       end
 
       def print_linked_attr(skill)
         apt = FS3Skills.get_linked_attr(skill.name)
-        !apt ? "" : " %xh%xx(#{apt[0..2].upcase})%xn"
+        !apt ? "" : "%xh%xx#{apt[0..2].upcase}%xn"
       end
 
       def section_line(title)
