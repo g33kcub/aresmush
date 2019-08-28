@@ -1,6 +1,7 @@
 ---
 fs3skills:
   max_luck: 50
+  max_corruption: 10
   luck_for_scene:
     0: 0.1
     10: 0.075

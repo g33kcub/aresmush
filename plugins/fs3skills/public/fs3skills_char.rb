@@ -4,6 +4,7 @@ module AresMUSH
     attribute :fs3_luck, :type => DataType::Float, :default => 5
     attribute :fs3_cookie_archive, :type => DataType::Integer, :default => 0
     attribute :fs3_scene_luck, :type => DataType::Hash, :default => {}
+    attribute :fs3_corruption, :type => DataType::Integer, :default => 0
 
     collection :fs3_attributes, "AresMUSH::FS3Attribute"
     collection :fs3_action_skills, "AresMUSH::FS3ActionSkill"
@@ -36,6 +37,14 @@ module AresMUSH
 
     def xp
       self.fs3_xp
+    end
+
+    def corruption
+      self.fs3_corruption
+    end
+
+    def corruption_max
+      Global.read_config("fs3skills","max_corruption")
     end
 
     def award_luck(amount)
