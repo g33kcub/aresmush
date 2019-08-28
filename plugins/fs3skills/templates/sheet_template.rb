@@ -124,7 +124,7 @@ module AresMUSH
       end
 
       def arcana
-        @char.group("arcana")
+        @char.group("arcana") || "Unknown"
       end
 
       def virtue
