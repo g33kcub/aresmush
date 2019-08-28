@@ -89,7 +89,7 @@ module AresMUSH
         endbreak = i % 2 == 1 ? "" : " "
         rating_attr = " "
         rating_desc = "#{a.rating_name}"
-        "#{linebreak}#{left(name, 12)} #{left(a.print_rating, 8)} #{left(rating_attr,3)} #{right(rating_desc, 13)}#{endbreak}"
+        "#{linebreak}#{left(name, 12)} #{left(a.print_rating, 8)} #{left(rating_attr,3)} #{right(rating_desc, 12)}#{endbreak}"
       end
 
       def format_skill(s, i, show_linked_attr = false)
