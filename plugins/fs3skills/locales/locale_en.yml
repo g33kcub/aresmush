@@ -129,9 +129,11 @@ en:
         advantages_title: "Advantages"
         sorcery_title: "Sorcery"
         other_title: "Miscellaneous"
+        corruption_title: "Corruption:"
 
         luck_display: "%{curlck}/%{maxlck}"
         xp_display: "%{curxp}/%{maxxp}"
+        corruption_display: "%{curcpt}/%{maxcpt}"
         # ------------------------------------------------------
         # XP
         # ------------------------------------------------------
