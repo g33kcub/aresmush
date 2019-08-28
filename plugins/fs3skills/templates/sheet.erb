@@ -1,9 +1,9 @@
 <%= section_line t('fs3skills.game_name', :game => game_name, :tag => tagline) %>
-%xh<%= left( t('fs3skills.fullname_title'), 16) %>%xn <%= left( char.name, 22 ) %> %xh<%= left(t('fs3skills.kind_title'),16) %>%xn <%=left( kind , 20) %>
-%xh<%= left( t('fs3skills.background_info_title'), 16) %>%xn <%= left( background, 22 ) %> %xh<%= left(t('fs3skills.colony_title'),16) %>%xn <%= left( colony,20) %>
-%xh<%= left( t('fs3skills.virtue_title'), 16) %>%xn <%= left( virtue, 22 ) %> %xh<%= left(t('fs3skills.hubris_title'),16) %>%xn <%= left( hubris ,20) %>
-%xh<%= left( t('fs3skills.birthdate_title'), 16) %>%xn <%= left( t('fs3skills.display_age', :dob => dateofbirth, :age => age), 22 ) %> %xh<%= left(t('fs3skills.arcana_title'),16) %>%xn <%= left( arcana , 20) %>
-%xh<%= left( t('fs3skills.character_status'), 16) %>%xn <%= left( approval_status, 22 ) %>
+%xh<%= left( t('fs3skills.fullname_title'), 16) %>%xn <%= right( char.name, 22 ) %> %xh<%= left(t('fs3skills.kind_title'),16) %>%xn <%= right( kind , 20) %>
+%xh<%= left( t('fs3skills.background_info_title'), 16) %>%xn <%= right( background, 22 ) %> %xh<%= left(t('fs3skills.colony_title'),16) %>%xn <%= right( colony,20) %>
+%xh<%= left( t('fs3skills.virtue_title'), 16) %>%xn <%= right( virtue, 22 ) %> %xh<%= left(t('fs3skills.hubris_title'),16) %>%xn <%= left( hubris ,20) %>
+%xh<%= left( t('fs3skills.birthdate_title'), 16) %>%xn <%= right( t('fs3skills.display_age', :dob => dateofbirth, :age => age), 22 ) %> %xh<%= left(t('fs3skills.arcana_title'),16) %>%xn <%= right( arcana , 20) %>
+%xh<%= left( t('fs3skills.character_status'), 16) %>%xn <%= right( approval_status, 22 ) %>
 <%= section_line t('fs3skills.attributes_title') -%>
 <% attrs.each do |a| -%>
 <%= a -%>
