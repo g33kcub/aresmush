@@ -28,5 +28,13 @@
 <% end %>
 <% end %>
 
+<% if allow_sorcery_xp %>
+<% char.fs3_sorcery.each do |a| %>
+<%= display(a) %>
+<% end %>
+<% else %>
+<%= t('fs3skills.cant_learn_sorcery_xp') %>
+<% end %>
+
 <%= t('fs3skills.xp_title') %> <%= char.xp %>
 <%= footer %>

@@ -155,6 +155,7 @@ en:
         xp_undone: "You undo %{name}'s XP spend on %{skill} and refund them 1XP."
         max_ability_points_reached: "You have reached the maximum number of points in that kind of ability."
         cant_learn_advantages_xp: "You can't raise advantages directly with XP.  Submit a request to staff."
+        cant_learn_sorcery_xp: "You can't raise sorcery directly with XP.  Submit a request to staff."
 
         skill_census_title: "Skill Scan"
 
