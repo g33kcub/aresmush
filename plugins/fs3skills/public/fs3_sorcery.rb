@@ -6,7 +6,7 @@ module AresMUSH
     reference :character, "AresMUSH::Character"
     attribute :name
     attribute :rating, :type => DataType::Integer, :default => 0
-
+    attribute :specialties, :type => DataType::Array, :default => []
     index :name
 
     def print_rating
