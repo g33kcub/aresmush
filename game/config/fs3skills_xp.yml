@@ -2,8 +2,8 @@
 fs3skills:
   periodic_xp: 1
   days_between_learning: 30
-  allow_advantages_xp: false
-  allow_sorcery_xp: false
+  allow_advantages_xp: true
+  allow_sorcery_xp: true
   max_xp_hoard: 4
   xp_cron:
     day_of_week:
@@ -36,3 +36,5 @@ fs3skills:
     advantage:
       1: 4
       2: 12
+    sorcery:
+      1: 25
