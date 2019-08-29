@@ -58,7 +58,7 @@ module AresMUSH
         list
       end
 
-      def sorcery
+      def sorceries
         list = []
         @char.fs3_sorcery.sort_by(:name, :order => "ALPHA").each_with_index do |l, i|
           list << format_skill(l, i)
