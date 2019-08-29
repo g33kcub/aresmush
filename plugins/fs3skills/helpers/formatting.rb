@@ -14,6 +14,7 @@ module AresMUSH
 	     end
      end.join " "
     end
+    
 
 
     def self.get_success_title(success_level)
