@@ -50,7 +50,7 @@ module AresMUSH
           starting_rating = 0
           starting_rating_name = t('fs3skills.everyman_rating')
         when :sorcery
-          metadata = FS3Skills.sorcery
+          metadata = FS3Skills.sorceries
           starting_rating = 0
           starting_rating_name = t('fs3skills.unskilled_rating')
         else
