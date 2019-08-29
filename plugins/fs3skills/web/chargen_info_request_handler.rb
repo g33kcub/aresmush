@@ -2,7 +2,7 @@ module AresMUSH
   module FS3Skills
     class ChargenInfoRequestHandler
       def handle(request)
-        
+
         {
           abilities: FS3Skills::AbilitiesRequestHandler.new.handle(request),
           skill_limits: Global.read_config('fs3skills', 'max_skills_at_or_above'),
@@ -21,11 +21,10 @@ module AresMUSH
           max_dots_attrs: FS3Skills.max_dots_in_attrs,
           xp_costs: Global.read_config('fs3skills', 'xp_costs'),
           allow_advantages_xp: Global.read_config('fs3skills', 'allow_advantages_xp'),
-          use_advantages: Global.read_config('fs3skills', 'use_advantages')
-        } 
+          use_advantages: Global.read_config('fs3skills', 'use_advantages'),
+          allow_advantages_xp: Global.read_config('fs3skills', 'allow_sorcery_xp')
+        }
       end
     end
   end
 end
-
-
