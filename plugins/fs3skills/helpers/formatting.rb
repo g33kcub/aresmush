@@ -6,15 +6,15 @@ module AresMUSH
     def self.print_dice(dice)
      dice.sort.reverse.map do |d|
        if d >= FS3Skills.success_target_number
-	        "%xg#{d}%xn"
+	        "%x10#{d}%xn"
 	     elsif d == 1
-	        "%xr#{d}%xn"
+	        "%x9#{d}%xn"
 	     else
 	        d
 	     end
      end.join " "
     end
-    
+
     def self.get_success_title(success_level)
       case success_level
       when -1
