@@ -12,7 +12,7 @@ module AresMUSH
         }}
         languages = FS3Skills.languages.sort_by { |a| a['name'] }.map { |a| { name: a['name'], description: a['desc'] } }
         advantages = FS3Skills.advantages.sort_by { |a| a['name'] }.map { |a| { name: a['name'], description: a['desc'] } }
-        sorceries = FS3Skills.sorceries.sort_by { |a| a['name'] }.map { |a| {
+        sorcery = FS3Skills.sorcery.sort_by { |a| a['name'] }.map { |a| {
           name: a['name'].titleize,
           linked_attr: a['linked_attr'],
           description: a['desc'],
@@ -30,7 +30,7 @@ module AresMUSH
           action_skills: action_skills,
           backgrounds: backgrounds,
           languages: languages,
-          sorceries: sorceries,
+          sorcery: sorcery,
           advantages: advantages,
           use_advantages: FS3Skills.use_advantages?
         }
