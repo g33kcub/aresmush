@@ -1,8 +1,18 @@
 module AresMUSH
   module FS3Skills
 
+
+
     def self.print_dice(dice)
-      dice.sort.reverse.map { |d| d >= FS3Skills.success_target_number ? "%x10#{d}%xn" : (d == 1 ? "%x9#{d}%xn" : d)}.join(" ")
+     dice.sort.reverse.map do |d|
+       if d >= FS3Skills.success_target_number
+	        "%x10#{d}%xn"
+	     elsif d == 1
+	        "%x9#{d}%xn"
+	     else
+	        d
+	     end
+     end.join " "
     end
 
 
