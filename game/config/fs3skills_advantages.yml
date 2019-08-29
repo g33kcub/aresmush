@@ -7,7 +7,6 @@ fs3skills:
     desc: How famous or infamous your name is.
   - name: Connections
     desc: How connected to the right people for the right job you are.
-    wiki: Advantage:Connections
   - name: Direction Sense
     desc: How well you can tell which way is which?
   advantages_blurb: 'Advantages represent important things your character possesses
