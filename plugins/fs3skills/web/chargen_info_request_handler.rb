@@ -22,7 +22,7 @@ module AresMUSH
           xp_costs: Global.read_config('fs3skills', 'xp_costs'),
           allow_advantages_xp: Global.read_config('fs3skills', 'allow_advantages_xp'),
           use_advantages: Global.read_config('fs3skills', 'use_advantages'),
-          allow_advantages_xp: Global.read_config('fs3skills', 'allow_sorcery_xp')
+          allow_sorcery_xp: Global.read_config('fs3skills', 'allow_sorcery_xp')
         }
       end
     end
