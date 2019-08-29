@@ -4,16 +4,16 @@ module AresMUSH
       def handle(request)
         char = Character.find_one_by_name request.args[:id]
         enactor = request.enactor
-        
+
         if (!char)
           return { error: t('webportal.not_found') }
         end
 
         error = Website.check_login(request, true)
         return error if error
-      
+
         is_owner = (enactor && enactor.id == char.id)
-        
+
         if (FS3Combat.is_enabled?)
           damage = char.damage.to_a.sort { |d| d.created_at }.map { |d| {
             date: d.ictime_str,
@@ -23,9 +23,9 @@ module AresMUSH
         else
           damage = nil
         end
-        
+
         show_sheet = FS3Skills.can_view_sheets?(enactor) || is_owner
-        
+
         if (is_owner)
           xp = {
             attributes: get_xp_list(char, char.fs3_attributes),
@@ -33,13 +33,14 @@ module AresMUSH
             backgrounds: get_xp_list(char, char.fs3_background_skills),
             languages: get_xp_list(char, char.fs3_languages),
             advantages: get_xp_list(char, char.fs3_advantages),
+            sorcery: get_xp_list(char,char.fs3_sorcery),
             xp_points: char.fs3_xp,
             allow_advantages_xp: Global.read_config("fs3skills", "allow_advantages_xp")
           }
         else
           xp = nil
         end
-      
+
         if (show_sheet)
           {
             attributes: get_ability_list(char.fs3_attributes),
@@ -47,6 +48,7 @@ module AresMUSH
             backgrounds: get_ability_list(char.fs3_background_skills),
             languages: get_ability_list(char.fs3_languages),
             advantages: get_ability_list(char.fs3_advantages),
+            sorcery: get_ability_list(char.fs3_sorcery),
             use_advantages: FS3Skills.use_advantages?,
             damage: damage,
             show_sheet: show_sheet,
@@ -60,17 +62,17 @@ module AresMUSH
           }
         end
       end
-    
-      def get_ability_list(list, include_specs = false)        
-        list.to_a.sort_by { |a| a.name }.map { |a| 
-          { 
-            name: a.name, 
-            rating: a.rating, 
+
+      def get_ability_list(list, include_specs = false)
+        list.to_a.sort_by { |a| a.name }.map { |a|
+          {
+            name: a.name,
+            rating: a.rating,
             rating_name: a.rating_name,
             specialties: include_specs ? a.specialties.join(", ") : nil
           }}
       end
-      
+
       def get_xp_list(char, list)
         list.to_a.sort_by { |a| a.name }.map { |a| {
           name: a.name,
@@ -85,4 +87,3 @@ module AresMUSH
     end
   end
 end
-
