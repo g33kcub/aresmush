@@ -6,9 +6,9 @@ module AresMUSH
     def self.print_dice(dice)
      dice.sort.reverse.map do |d|
        if d >= FS3Skills.success_target_number
-	        "%xg#{d}%xn"
+	        "%xg%xh#{d}%xn"
 	     elsif d == 1
-	        "%xr#{d}%xn"
+	        "%xr%xh#{d}%xn"
 	     else
 	        d
 	     end
