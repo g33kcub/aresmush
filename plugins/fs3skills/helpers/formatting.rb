@@ -1,11 +1,11 @@
 module AresMUSH
   module FS3Skills
-    
+
     def self.print_dice(dice)
-      dice.sort.reverse.map { |d| d >= FS3Skills.success_target_number ? "%xg#{d}%xn" : d}.join(" ")
+      dice.sort.reverse.map { |d| d >= FS3Skills.success_target_number ? "%x10#{d}%xn" : (d == 1 ? "%x9#{d}%xn" : d)}.join(" ")
     end
-    
-    
+
+
     def self.get_success_title(success_level)
       case success_level
       when -1
@@ -24,14 +24,14 @@ module AresMUSH
         raise "Unexpected roll result: #{success_level}"
       end
     end
-    
+
     def self.opposed_result_title(name1, successes1, name2, successes2)
       delta = successes1 - successes2
-      
+
       if (successes1 <=0 && successes2 <= 0)
         return t('fs3skills.opposed_both_fail')
       end
-      
+
       case delta
       when 3..99
         return t('fs3skills.opposed_crushing_victory', :name => name1)
@@ -51,7 +51,7 @@ module AresMUSH
         raise "Unexpected opposed roll result: #{successes1} #{successes2}"
       end
     end
-    
-    
+
+
   end
 end
