@@ -16,6 +16,7 @@ module AresMUSH
     attribute :scene_type
     attribute :location
     attribute :summary
+    attribute :limit
     attribute :shared
     attribute :was_restarted, :type => DataType::Boolean, :default => false
     attribute :logging_enabled, :type => DataType::Boolean, :default => true
@@ -136,6 +137,10 @@ module AresMUSH
     
     def likes
       self.scene_likes.count
+    end
+    
+    def live_url
+      "#{Game.web_portal_url}/scene-live/#{self.id}"
     end
     
     def url

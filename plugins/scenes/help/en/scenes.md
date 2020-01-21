@@ -12,6 +12,7 @@ aliases:
 - scene summary
 - scene date
 - scene set
+- repose
 ---
 # Scenes
 
@@ -31,6 +32,7 @@ While you can always do free-form RP on the grid or in the RP room, there are a 
 `scene/start` - Starts a scene in your current room.
 `scene/start [<area>/]<location name>=<private/open>` - Starts a scene in a temp room.
 `scene/webstart [<area>/]<location name>=<private/open>` - Starts a scene that you intend to play on the web, and doesn't move you there.
+`scene/limit [scene#]=<limit notice>` - Indicates that an open scene has some participation limit - by quantity, character type, etc.
 
 ## Joining and Leaving Scenes
 
@@ -57,7 +59,7 @@ While you can always do free-form RP on the grid or in the RP room, there are a 
 
 ## Repose and Logging
 
-`scene/repose [scene #]` - Quick log catch-up.
+`scene/repose [# of poses to show]` - Quick log catch-up of your current scene.
 `scene/log [scene #]` - Spam yourself with the entire log.
 
 `scene/share [scene #]` - Shares the log to the web portal.
@@ -85,3 +87,9 @@ While you can always do free-form RP on the grid or in the RP room, there are a 
 `scene/removechar <#>=<char>` - Removes a participant from the scene log.
 
 > **Tip:** Admins and characters with the `manage_scenes` permission can edit other people's scenes.  However, they cannot read scenes unless they've been shared first.
+
+## Reporting Abuse
+
+If someone is behaving badly in a scene, you can bring it to the game admin's attention - along with an automatic, verified log of the scene (including OOC chat and any previously-edited or deleted poses).  
+
+`scene/report <scene#>=<explanation>`

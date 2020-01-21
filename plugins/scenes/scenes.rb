@@ -80,7 +80,7 @@ module AresMUSH
           return SceneHomeCmd
         when "join"
           return SceneJoinCmd
-        when "location", "privacy", "summary", "title", "type", "icdate", "plot"
+        when "location", "privacy", "summary", "title", "type", "icdate", "plot", "limit"
           return SceneInfoCmd
         when "delete"
           return SceneDeleteCmd
@@ -100,12 +100,16 @@ module AresMUSH
           return SceneStopCmd
         when "types"
           return SceneTypesCmd
-        when "log", "repose"
+        when "log"
           return SceneLogCmd
         when "clearlog"
           return SceneLogClearCmd
         when "enablelog", "disablelog"
           return SceneLogEnableCmd
+        when "repose"
+          return SceneReposeCmd
+        when "report"
+          return SceneReportCmd
         when "share"
           return SceneShareCmd
         when "unshare"
@@ -187,6 +191,8 @@ module AresMUSH
         return PlotRequestHandler
       when "recentScenes"
         return RecentScenesRequestHandler
+      when "reportScene"
+        return ReportSceneRequestHandler
       when "scene"
         return GetSceneRequestHandler
       when "scenes"

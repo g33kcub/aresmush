@@ -73,8 +73,9 @@ module AresMUSH
         fs3combat_enabled: FS3Combat.is_enabled?,
         poseable_chars: Scenes.build_poseable_chars_data(scene, viewer),
         pose_order_type: scene.room ? scene.room.pose_order_type : nil,
-        use_custom_char_chards: Scenes.use_custom_char_cards?,
-        extras_installed: Global.read_config('plugins', 'extras') || []
+        use_custom_char_cards: Scenes.use_custom_char_cards?,
+        extras_installed: Global.read_config('plugins', 'extras') || [],
+        limit: scene.limit
       }
     end    
     
@@ -91,6 +92,7 @@ module AresMUSH
         participants: scene.participants.to_a.sort_by { |p| p.name }.map { |p| 
           { name: p.name, id: p.id, icon: Website.icon_for_char(p) }},
         scene_type: scene.scene_type ? scene.scene_type.titlecase : 'Unknown',
+        limit: scene.limit
         }
       end
     
@@ -132,8 +134,11 @@ module AresMUSH
       
       command = ((pose.split(" ").first) || "").downcase
       is_emit = false
+      
       if (command == "ooc")
         is_ooc = true
+        is_gmpose = false
+        is_setpose = false
         pose = pose.after(" ")
         pose = PoseFormatter.format(enactor.name, pose)
       elsif (command == "scene/set")

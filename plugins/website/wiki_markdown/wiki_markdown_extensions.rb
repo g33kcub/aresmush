@@ -6,8 +6,9 @@ module AresMUSH
       
       def self.preprocess_tags
         [
+          IncludeMarkdownExtension, # NOTE!!  Do includes first, otherwise any extensions inside them won't be expanded properly.
           WikidotExternalLinkMarkdownExtension,
-          IncludeMarkdownExtension,
+          WikidotInternalLinkMarkdownExtension,
           WikidotHeading,
           WikidotAnchor,
           WikidotCenter,
@@ -26,7 +27,6 @@ module AresMUSH
           # Most of these are post tags because otherwise the text inside them ends up 
           # beng marked as HTML instead of markdown.
           
-          WikidotInternalLinkMarkdownExtension,
           WikidotItalics,
           CharacterGalleryMarkdownExtension,
           MusicPlayerMarkdownExtension,
